@@ -1,0 +1,17 @@
+# employment-01-trap: Employment agreement with RED risk profile
+# Indian employer with excessive bond, post-termination non-compete, IP overreach
+MUST:HIGH
+MUST:Disclaimer
+MUST:not legal advice
+MUST:non-compete
+SHOULD:S.27
+SHOULD:bond
+SHOULD:24 month
+SHOULD:side project
+SHOULD:notice period
+SHOULD:IP
+SHOULD:void
+SHOULD:garden leave
+MUSTNOT:GREEN document
+MUSTNOT:No action needed
+MUSTNOT:no issues

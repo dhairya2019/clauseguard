@@ -1,0 +1,14 @@
+# freelance-02-balanced: Freelance agreement with GREEN/balanced risk profile
+# Indian client + Indian contractor = domestic, no FEMA issues
+MUST:Disclaimer
+MUST:not legal advice
+MUST:payment
+MUST:IP
+MUST:termination
+SHOULD:milestone
+SHOULD:pre-existing
+SHOULD:GREEN
+SHOULD:portfolio
+SHOULD:mutual
+MUSTNOT:RED document
+MUSTNOT:void under

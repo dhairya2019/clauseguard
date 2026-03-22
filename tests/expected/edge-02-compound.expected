@@ -1,0 +1,19 @@
+# edge-02-compound: Edge case with compound sentences and cross-reference traps
+# Multiple risks per sentence, missing exhibits, undefined company policy
+MUST:HIGH
+MUST:Disclaimer
+MUST:not legal advice
+MUST:IP
+MUST:non-compete
+SHOULD:S.27
+SHOULD:compound
+SHOULD:Exhibit B
+SHOULD:Company Policy
+SHOULD:sole discretion
+SHOULD:moral rights
+SHOULD:ideas
+SHOULD:methodologies
+SHOULD:unlimited
+MUSTNOT:GREEN document
+MUSTNOT:No action needed
+MUSTNOT:no issues

@@ -1,0 +1,100 @@
+NON-DISCLOSURE AGREEMENT
+
+This Non-Disclosure Agreement ("Agreement") is entered into as of March 1, 2026, by and
+between GlobalTech Solutions Ltd., a company incorporated under the laws of England and Wales,
+with registered offices in London, United Kingdom ("Disclosing Party"), and Naveen Patel, an
+individual residing in Hyderabad, Telangana, India ("Receiving Party").
+
+RECITALS
+
+WHEREAS, the Disclosing Party possesses certain proprietary and confidential information
+relating to its business operations, technology, strategies, and client relationships; and
+
+WHEREAS, the Disclosing Party desires to disclose certain information to the Receiving Party
+for the purpose of evaluating a potential business engagement;
+
+NOW, THEREFORE, in consideration of the mutual promises contained herein, the parties agree
+as follows:
+
+1. DEFINITION OF CONFIDENTIAL INFORMATION
+
+"Confidential Information" means all information disclosed by the Disclosing Party to the
+Receiving Party, whether orally, in writing, electronically, or by any other means, including
+but not limited to: trade secrets, business plans, financial data, customer lists, employee
+information, technical specifications, software code, algorithms, methodologies, marketing
+strategies, pricing information, vendor relationships, and any other information of any nature
+whatsoever. Confidential Information includes all information regardless of whether it is
+marked as confidential, proprietary, or otherwise, and regardless of whether it is publicly
+available or independently developed by the Receiving Party.
+
+2. OBLIGATIONS OF RECEIVING PARTY
+
+2.1 The Receiving Party shall hold all Confidential Information in strict confidence in
+perpetuity. There shall be no time limit on the Receiving Party's confidentiality obligations.
+
+2.2 The Receiving Party shall not disclose Confidential Information to any third party under
+any circumstances, including disclosure compelled by law, regulation, court order, or
+governmental authority. The Receiving Party waives any right to assert legal compulsion as a
+defense to unauthorized disclosure.
+
+2.3 The Receiving Party shall not use Confidential Information for any purpose other than
+the purpose specifically authorized in writing by the Disclosing Party.
+
+2.4 The Receiving Party shall bear all costs associated with safeguarding Confidential
+Information, including implementation of security measures and personnel training.
+
+3. NO RECIPROCAL OBLIGATIONS
+
+This Agreement imposes confidentiality obligations solely on the Receiving Party. The
+Disclosing Party shall have no confidentiality obligations to the Receiving Party, regardless
+of any information the Receiving Party may disclose to the Disclosing Party during the course
+of business discussions.
+
+4. REMEDIES FOR BREACH
+
+4.1 In the event of any breach or threatened breach of this Agreement, the Receiving Party
+shall pay liquidated damages of USD 500,000 (Five Hundred Thousand Dollars) to the Disclosing
+Party, in addition to any actual damages suffered. The parties acknowledge that this amount
+represents a reasonable pre-estimate of the Disclosing Party's loss.
+
+4.2 The Disclosing Party shall be entitled to seek injunctive relief, specific performance,
+and any other equitable remedies available, without the necessity of posting any bond or
+proving actual damages.
+
+5. RETURN OF MATERIALS
+
+Upon request by the Disclosing Party, the Receiving Party shall return or destroy all
+Confidential Information in its possession. However, the confidentiality obligations under
+this Agreement shall continue in perpetuity regardless of the return or destruction of
+materials.
+
+6. NO LICENSE
+
+Nothing in this Agreement grants the Receiving Party any license or right under any patent,
+copyright, trademark, or other intellectual property right of the Disclosing Party.
+
+7. GOVERNING LAW AND JURISDICTION
+
+This Agreement shall be governed by and construed in accordance with the laws of England
+and Wales. The parties irrevocably submit to the exclusive jurisdiction of the courts of
+London, England for the resolution of any disputes arising under or in connection with this
+Agreement. The Receiving Party waives any right to challenge the jurisdiction or venue of
+such courts.
+
+8. TERM
+
+This Agreement shall remain in effect in perpetuity. There shall be no expiration date.
+The Receiving Party's obligations under this Agreement are permanent and irrevocable.
+
+9. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between the parties with respect to the
+subject matter hereof. No amendment or modification of this Agreement shall be valid unless
+made in writing and signed by the Disclosing Party.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+GlobalTech Solutions Ltd.                  Naveen Patel
+By: ________________________               ________________________
+Name: Richard Thompson                     Receiving Party
+Title: Chief Operating Officer

@@ -1,0 +1,112 @@
+EMPLOYMENT AGREEMENT
+
+This Employment Agreement ("Agreement") is entered into as of January 10, 2026, by and
+between NexGen Innovations Pvt. Ltd., a company incorporated under the Companies Act, 2013,
+with registered office at Gurugram, Haryana, India ("Employer"), and Arjun Mehta, residing
+in New Delhi, India ("Employee").
+
+1. POSITION AND DUTIES
+
+1.1 Employee is appointed as Senior Software Engineer and shall report to the Engineering
+Director. Employee shall perform such duties as assigned by the Employer from time to time,
+including duties beyond the scope of the primary role.
+
+1.2 Employee shall devote full working time, attention, and energy to the business of the
+Employer. Employee shall not engage in any outside employment, business activity, consulting,
+or freelance work without the prior written consent of the Employer.
+
+2. COMPENSATION
+
+2.1 Employee shall receive an annual gross salary of INR 24,00,000 (Rupees Twenty-Four Lakhs),
+payable monthly.
+
+2.2 Salary revisions shall be at the sole discretion of the Employer. The Employer is under
+no obligation to provide annual increments or bonuses.
+
+3. EMPLOYMENT BOND
+
+3.1 In consideration of the training, resources, and proprietary knowledge provided by the
+Employer, Employee agrees to remain in the employment of the Employer for a minimum period of
+twenty-four (24) months from the date of joining ("Bond Period").
+
+3.2 If Employee voluntarily resigns or is terminated for cause during the Bond Period, Employee
+shall pay the Employer liquidated damages equal to twenty-four (24) months of gross salary
+(INR 48,00,000) as compensation for the Employer's investment in training and development.
+
+3.3 The Employer may deduct the bond amount from any final settlement dues payable to the
+Employee. If final settlement dues are insufficient, the Employee shall pay the remaining
+balance within thirty (30) days of separation.
+
+4. NOTICE PERIOD
+
+4.1 Employee must provide ninety (90) days written notice prior to resignation. During the
+notice period, Employee shall continue to perform all duties and responsibilities.
+
+4.2 Employer may terminate Employee's employment at any time by providing one (1) day written
+notice, or payment of one (1) day salary in lieu of notice.
+
+4.3 Employer may terminate Employee's employment immediately without notice for cause,
+including but not limited to: failure to meet performance expectations as determined by
+Employer in its sole discretion, insubordination, unauthorized disclosure, or any other
+reason deemed appropriate by the Employer.
+
+5. INTELLECTUAL PROPERTY
+
+5.1 All intellectual property created, conceived, developed, or reduced to practice by
+Employee during the term of employment, whether during working hours or personal time,
+whether using Employer resources or not, and whether or not related to the Employer's
+business, shall be the sole and exclusive property of the Employer.
+
+5.2 This includes but is not limited to: inventions, discoveries, improvements, designs,
+software, algorithms, methodologies, trade secrets, and all other forms of intellectual
+property, including personal side projects, open source contributions, blog posts, and
+educational materials created during the employment period.
+
+5.3 Employee hereby irrevocably assigns all right, title, and interest in such intellectual
+property to the Employer.
+
+6. NON-COMPETE
+
+6.1 Employee agrees that for a period of twenty-four (24) months following the termination
+or expiration of employment, regardless of the reason for separation, Employee shall not
+directly or indirectly:
+
+    (a) Engage in any business that competes with the Employer's business;
+    (b) Provide services (whether as an employee, consultant, contractor, or otherwise) to
+        any entity that competes with the Employer;
+    (c) Solicit any customer, client, vendor, or business partner of the Employer;
+    (d) Recruit or hire any employee of the Employer.
+
+6.2 This restriction applies worldwide, without geographic limitation.
+
+6.3 No garden leave payment or compensation shall be provided during the non-compete period.
+
+7. PROBATION
+
+Employee shall be on probation for a period of six (6) months from the date of joining.
+During probation, Employer may terminate employment with one (1) day notice. Confirmation
+of employment after probation is at the Employer's sole discretion.
+
+8. CONFIDENTIALITY
+
+Employee shall not disclose any confidential information of the Employer, including business
+strategies, client information, technical data, and financial information, during or after
+employment. This obligation continues in perpetuity.
+
+9. GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with the laws of India. Any
+dispute shall be subject to the exclusive jurisdiction of the courts of Gurugram, Haryana.
+
+10. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between the parties and supersedes all prior
+agreements, understandings, and negotiations. This Agreement may be amended only by a written
+instrument signed by the Employer.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+NexGen Innovations Pvt. Ltd.               Arjun Mehta
+By: ________________________               ________________________
+Name: Vikram Singh                         Employee
+Title: Chief Human Resources Officer

@@ -1,0 +1,121 @@
+CONSULTING SERVICES AGREEMENT
+
+This Consulting Services Agreement ("Agreement") is entered into as of February 20, 2026,
+by and between FutureScale Inc., a corporation organized under the laws of the State of
+Texas, United States ("Client"), and Karthik Venkataraman, an independent consultant
+residing in Bangalore, Karnataka, India ("Consultant").
+
+RECITALS
+
+WHEREAS, Client desires to engage Consultant to provide data engineering consulting services;
+and
+
+WHEREAS, Consultant possesses the skills and expertise required to perform such services;
+
+NOW, THEREFORE, in consideration of the mutual covenants contained herein, the parties agree:
+
+1. SCOPE OF WORK
+
+1.1 Consultant shall provide data engineering consulting services as described in Exhibit B,
+which is incorporated by reference into this Agreement and sets forth the detailed scope,
+deliverables, timeline, and acceptance criteria.
+
+1.2 Consultant acknowledges that additional tasks and responsibilities may be assigned in
+accordance with Company Policy, which may be updated from time to time at Client's discretion.
+
+2. COMPENSATION
+
+2.1 Client shall pay Consultant a project fee of USD 50,000, payable upon completion of all
+deliverables and acceptance of the final work product at Client's sole discretion.
+
+2.2 Payment shall be made within sixty (60) days of Client's written acceptance. For clarity,
+payment shall be due upon completion AND acceptance at Client's sole discretion, and no
+partial payments or milestone payments shall apply.
+
+2.3 Consultant's fee includes all expenses, taxes, and costs associated with the performance
+of services. No additional reimbursement shall be provided.
+
+3. INTELLECTUAL PROPERTY AND NON-COMPETE
+
+3.1 Consultant hereby assigns to Client all intellectual property rights in all work product
+AND agrees not to compete with Client or any of its affiliates for a period of twenty-four
+(24) months following termination of this Agreement, anywhere in the world.
+
+3.2 Work product includes all materials, tools, ideas, concepts, methodologies, algorithms,
+data models, and documentation created, developed, conceived, or contributed to by Consultant
+in connection with this Agreement, whether or not incorporated into the final deliverables.
+
+3.3 Consultant waives all moral rights, including rights of attribution and integrity, in
+all work product.
+
+3.4 The intellectual property assignment and non-compete obligations in this Section 3 shall
+survive termination of this Agreement.
+
+4. CONFIDENTIALITY AND RESTRICTIONS
+
+4.1 Consultant shall maintain strict confidentiality of all Client information, including
+business strategies, customer data, technical architecture, and financial information, in
+perpetuity.
+
+4.2 Consultant shall not disclose any information to any person or entity, including in
+response to legal process, without Client's prior written consent.
+
+4.3 Consultant shall not, during the term of this Agreement or for eighteen (18) months
+thereafter, solicit or recruit any employee, contractor, or consultant of Client or any of
+its affiliates, or solicit any customer, vendor, or business partner of Client.
+
+5. TERMINATION
+
+5.1 Client may terminate this Agreement at any time for any reason with five (5) days
+written notice. Upon termination by Client, Consultant shall be paid for work completed
+and accepted prior to the termination date, as determined by Client in its sole discretion.
+
+5.2 Consultant may terminate this Agreement with thirty (30) days written notice. Upon
+termination by Consultant, all work product created through the termination date shall be
+delivered to Client and all intellectual property therein shall be deemed assigned to Client.
+
+5.3 Sections 3, 4, and 6 shall survive termination of this Agreement.
+
+6. INDEMNIFICATION AND LIABILITY
+
+6.1 Consultant shall indemnify, defend, and hold harmless Client from any and all claims,
+including but not limited to intellectual property infringement claims, regardless of whether
+such claims arise from Client's modification, combination, or use of the work product in
+ways not contemplated by Consultant.
+
+6.2 Consultant's total liability under this Agreement shall be unlimited.
+
+6.3 Client's total liability under this Agreement shall not exceed the lesser of: (a) the
+fees actually paid to Consultant, or (b) USD 10,000.
+
+7. REPRESENTATIONS
+
+7.1 Consultant represents that Consultant is an independent contractor and not an employee
+of Client. Consultant is responsible for all taxes and statutory obligations.
+
+7.2 Consultant represents that the deliverables shall conform to the specifications in
+Exhibit B and shall not infringe any third-party rights. Note: Exhibit B is to be provided
+separately by Client and is not attached to this Agreement at the time of execution.
+
+8. GOVERNING LAW
+
+This Agreement shall be governed by the laws of the State of Texas, United States. Any
+dispute shall be subject to the exclusive jurisdiction of the courts of Austin, Texas.
+
+9. GENERAL PROVISIONS
+
+9.1 This Agreement constitutes the entire agreement between the parties. Amendments require
+written agreement signed by both parties.
+
+9.2 Client may assign this Agreement to any entity without Consultant's consent. Consultant
+may not assign this Agreement without Client's prior written consent.
+
+9.3 Terms defined in Company Policy (as amended from time to time) are incorporated into
+this Agreement by reference.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+FutureScale Inc.                           Karthik Venkataraman
+By: ________________________               ________________________
+Name: James Rodriguez                      Consultant
+Title: Chief Technology Officer

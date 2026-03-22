@@ -1,0 +1,126 @@
+SAAS SUBSCRIPTION AGREEMENT
+
+This SaaS Subscription Agreement ("Agreement") is entered into as of February 15, 2026, by
+and between CloudBridge Solutions Pvt. Ltd., a company incorporated under the Companies Act,
+2013, with registered office at Bangalore, Karnataka, India ("Vendor"), and Horizon Analytics
+Pvt. Ltd., a company incorporated under the Companies Act, 2013, with registered office at
+Mumbai, Maharashtra, India ("Customer").
+
+1. SERVICE DESCRIPTION
+
+1.1 Vendor provides a cloud-based analytics and reporting platform ("Service") accessible
+via web browser and API, as described in the Service Description (Exhibit A).
+
+1.2 Vendor shall provide reasonable advance notice of material changes to the Service that
+may affect Customer's use. Vendor shall maintain backward compatibility for documented APIs
+for a minimum of twelve (12) months after announcing deprecation.
+
+2. SERVICE LEVEL AGREEMENT
+
+2.1 Vendor commits to a monthly Service availability of 99.9% ("Uptime SLA"), measured on
+a calendar month basis. Scheduled maintenance windows shall be excluded from uptime
+calculations and shall be communicated at least 48 hours in advance.
+
+2.2 If Service availability falls below the Uptime SLA in any calendar month, Customer
+shall receive service credits as follows:
+    (a) 99.0% to 99.9%: 10% credit on monthly fees
+    (b) 95.0% to 99.0%: 25% credit on monthly fees
+    (c) Below 95.0%: 50% credit on monthly fees
+
+2.3 Vendor shall provide Customer access to a real-time status dashboard showing current
+and historical Service availability.
+
+3. SUBSCRIPTION TERM AND RENEWAL
+
+3.1 The initial subscription term is twelve (12) months from the date of this Agreement.
+
+3.2 The subscription shall automatically renew for successive twelve (12) month periods
+unless either party provides written notice of non-renewal at least thirty (30) days prior
+to the end of the then-current term.
+
+3.3 Annual subscription pricing shall remain locked at the rate agreed upon for the Initial
+Term. Any pricing changes for Renewal Terms shall be communicated at least sixty (60) days
+in advance and shall not exceed 8% of the prior term's fees without mutual written agreement.
+
+4. FEES AND PAYMENT
+
+4.1 Customer shall pay the annual subscription fee of INR 12,00,000 in advance within
+thirty (30) days of invoice.
+
+4.2 Late payments shall accrue interest at 1% per month. Vendor may suspend access after
+thirty (30) days of non-payment, following written notice.
+
+5. DATA OWNERSHIP AND PORTABILITY
+
+5.1 Customer retains full ownership of all data uploaded to or generated within the Service
+("Customer Data"). Vendor acquires no rights in Customer Data except as necessary to provide
+the Service.
+
+5.2 Vendor provides a Data Export API that allows Customer to export all Customer Data in
+standard formats (CSV, JSON, or Parquet) at any time during the subscription.
+
+5.3 Upon termination or expiration, Vendor shall make Customer Data available for export for
+a period of sixty (60) days. After this period, Vendor shall securely delete Customer Data
+and provide written certification of deletion within ninety (90) days.
+
+6. SECURITY AND COMPLIANCE
+
+6.1 Vendor shall maintain commercially reasonable security measures to protect Customer Data,
+including encryption at rest and in transit, access controls, and regular security assessments.
+
+6.2 Vendor shall notify Customer of any data breach affecting Customer Data within seventy-two
+(72) hours of becoming aware of such breach.
+
+6.3 Vendor shall comply with applicable data protection laws, including the Digital Personal
+Data Protection Act, 2023.
+
+7. INDEMNIFICATION
+
+7.1 Each party shall indemnify and hold harmless the other from third-party claims arising
+from the indemnifying party's breach of this Agreement, negligence, or willful misconduct.
+
+7.2 Vendor shall indemnify Customer from third-party claims that the Service infringes any
+intellectual property right.
+
+8. LIMITATION OF LIABILITY
+
+8.1 Each party's total aggregate liability under this Agreement shall not exceed the total
+fees paid or payable by Customer during the twelve (12) months preceding the event giving
+rise to the claim.
+
+8.2 Neither party shall be liable for indirect, incidental, consequential, special, or
+punitive damages, except in cases of gross negligence, willful misconduct, or breach of
+confidentiality obligations.
+
+9. TERMINATION
+
+9.1 Either party may terminate this Agreement for material breach if the breaching party
+fails to cure within thirty (30) days of written notice specifying the breach.
+
+9.2 Customer may terminate for convenience at the end of any subscription term by providing
+notice as specified in Section 3.2.
+
+9.3 Upon termination, the data export provisions of Section 5.3 shall apply.
+
+10. GOVERNING LAW AND DISPUTE RESOLUTION
+
+10.1 This Agreement shall be governed by and construed in accordance with the laws of India.
+
+10.2 Any dispute arising out of or in connection with this Agreement shall be resolved by
+arbitration administered by the Mumbai Centre for International Arbitration (MCIA). The seat
+of arbitration shall be Mumbai, India.
+
+11. GENERAL PROVISIONS
+
+11.1 This Agreement constitutes the entire agreement between the parties. Amendments require
+the written agreement of both parties.
+
+11.2 Neither party may assign this Agreement without the prior written consent of the other
+party, except in connection with a merger, acquisition, or sale of substantially all assets.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+CloudBridge Solutions Pvt. Ltd.            Horizon Analytics Pvt. Ltd.
+By: ________________________               By: ________________________
+Name: Rohit Agarwal                        Name: Sneha Kapoor
+Title: Chief Executive Officer              Title: Chief Operating Officer

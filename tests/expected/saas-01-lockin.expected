@@ -1,0 +1,16 @@
+# saas-01-lockin: SaaS agreement with RED risk profile
+# Foreign vendor (California) + Indian customer = cross-border + jurisdiction
+MUST:HIGH
+MUST:Disclaimer
+MUST:not legal advice
+SHOULD:lock-in
+SHOULD:auto-renew
+SHOULD:no SLA
+SHOULD:data portability
+SHOULD:90 day
+SHOULD:indemnif
+SHOULD:California
+SHOULD:one-sided
+MUSTNOT:GREEN document
+MUSTNOT:No action needed
+MUSTNOT:no issues

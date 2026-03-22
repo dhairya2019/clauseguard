@@ -1,0 +1,16 @@
+# tos-01-hostile: Terms of Service with RED risk profile
+# Hostile ToS with no liability cap, unilateral modification, auto-renewal trap
+MUST:HIGH
+MUST:Disclaimer
+MUST:not legal advice
+SHOULD:liability
+SHOULD:auto-renew
+SHOULD:unilateral
+SHOULD:90 day
+SHOULD:indemnif
+SHOULD:no data
+SHOULD:terminate at any time
+SHOULD:Singapore
+MUSTNOT:GREEN document
+MUSTNOT:No action needed
+MUSTNOT:no issues

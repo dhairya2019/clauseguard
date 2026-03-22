@@ -1,0 +1,84 @@
+INDEPENDENT CONTRACTOR AGREEMENT
+
+This Independent Contractor Agreement ("Agreement") is entered into as of January 15, 2026,
+by and between TechCorp Inc., a corporation organized under the laws of the State of Delaware,
+United States ("Client"), and Rajesh Kumar, an individual residing in Bangalore, Karnataka,
+India ("Contractor").
+
+1. SCOPE OF WORK
+
+Contractor shall provide software development services as directed by Client from time to time.
+Contractor shall perform such other duties as may be reasonably assigned by Client. Deliverables
+shall be deemed acceptable at Client's sole discretion.
+
+2. COMPENSATION
+
+Client shall pay Contractor a fixed fee of USD 15,000 for the complete project. Payment shall
+be made upon completion of all deliverables and final acceptance at Client's sole discretion.
+Payment terms are Net 90 from the date of Client's written acceptance. No milestone payments
+or progress billing shall apply. Client reserves the right to offset any amounts owed against
+claims for defective work.
+
+3. INTELLECTUAL PROPERTY
+
+All work product, including but not limited to all intellectual property, ideas, concepts,
+methodologies, tools, frameworks, and pre-existing IP created, developed, or used by Contractor
+in connection with this Agreement, shall be the sole and exclusive property of Client. Contractor
+hereby assigns all right, title, and interest in and to all work product to Client. Contractor
+waives all moral rights in the work product, including rights of attribution and integrity.
+This IP assignment shall survive termination of this Agreement.
+
+4. NON-COMPETE
+
+Contractor agrees that for a period of twenty-four (24) months following the termination or
+expiration of this Agreement, Contractor shall not, directly or indirectly, anywhere in the
+world, engage in, own, manage, operate, consult for, or provide services to any business that
+competes with Client's business or any of its affiliates. This restriction applies regardless
+of the reason for termination.
+
+5. TERMINATION
+
+Client may terminate this Agreement at any time, for any reason or no reason, with immediate
+effect upon written notice to Contractor. Upon termination by Client, no payment shall be due
+for work completed or in progress. Contractor may not terminate this Agreement without Client's
+prior written consent.
+
+6. INDEMNIFICATION
+
+Contractor shall indemnify, defend, and hold harmless Client and its officers, directors,
+employees, agents, successors, and assigns from and against any and all claims, damages, losses,
+costs, and expenses (including reasonable attorney's fees) arising out of or relating to
+Contractor's performance under this Agreement, regardless of the cause or origin of such claims.
+There shall be no limitation on the amount of Contractor's indemnification obligation.
+
+7. LIABILITY
+
+Client shall not be liable to Contractor for any indirect, incidental, consequential, special,
+or punitive damages. Client's total liability under this Agreement shall not exceed the amount
+of fees actually paid to Contractor. Contractor's liability to Client shall be unlimited.
+
+8. CONFIDENTIALITY
+
+Contractor acknowledges that all information provided by Client is confidential in perpetuity.
+Contractor shall not disclose any information to any third party without Client's prior written
+consent, including information required to be disclosed by law or court order.
+
+9. GOVERNING LAW AND JURISDICTION
+
+This Agreement shall be governed by and construed in accordance with the laws of the State of
+Delaware, United States. Any dispute arising out of or relating to this Agreement shall be
+subject to the exclusive jurisdiction of the state and federal courts located in Wilmington,
+Delaware. Contractor waives any right to bring proceedings in any other jurisdiction.
+
+10. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between the parties and supersedes all prior
+negotiations, representations, warranties, commitments, offers, and agreements, whether written
+or oral.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+TechCorp Inc.                              Rajesh Kumar
+By: ________________________               ________________________
+Name: John Smith                           Contractor
+Title: VP Engineering

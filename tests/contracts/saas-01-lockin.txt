@@ -1,0 +1,112 @@
+SAAS SUBSCRIPTION AGREEMENT
+
+This SaaS Subscription Agreement ("Agreement") is entered into as of January 20, 2026, by
+and between DataVault Inc., a corporation organized under the laws of the State of California,
+United States ("Vendor"), and Meridian Enterprises Pvt. Ltd., a company incorporated under
+the Companies Act, 2013, with registered office at Chennai, Tamil Nadu, India ("Customer").
+
+1. SERVICE DESCRIPTION
+
+1.1 Vendor provides a cloud-based enterprise data management platform ("Service") accessible
+via web browser and API.
+
+1.2 Vendor reserves the right to modify, update, or discontinue any feature or functionality
+of the Service at any time, in its sole discretion, without prior notice to Customer. Vendor
+shall have no liability for any modification, suspension, or discontinuation of the Service.
+
+2. SUBSCRIPTION TERM AND RENEWAL
+
+2.1 The initial subscription term is twelve (12) months from the date of this Agreement
+("Initial Term").
+
+2.2 The subscription shall automatically renew for successive twelve (12) month periods
+("Renewal Terms") unless Customer provides written notice of non-renewal at least ninety (90)
+days prior to the end of the then-current term.
+
+2.3 Vendor may adjust subscription pricing for any Renewal Term at Vendor's discretion.
+Pricing may change at Vendor's sole discretion and there shall be no cap or limitation on
+price increases. Customer's continued use of the Service after a price change constitutes
+acceptance of the new pricing.
+
+3. FEES AND PAYMENT
+
+3.1 Customer shall pay the annual subscription fee of USD 120,000 in advance within thirty
+(30) days of invoice.
+
+3.2 All fees are non-refundable. No credits shall be issued for partial months, downtime,
+or unused services.
+
+3.3 Late payments shall accrue interest at the rate of 1.5% per month. Vendor may suspend
+access to the Service for any payment more than fifteen (15) days overdue.
+
+4. DATA AND CONTENT
+
+4.1 Customer retains ownership of data uploaded to the Service ("Customer Data"). However,
+Customer grants Vendor a worldwide, perpetual, irrevocable license to use, analyze, and
+aggregate Customer Data for Vendor's internal purposes, including product improvement,
+analytics, and benchmarking.
+
+4.2 Vendor shall have no obligation to provide data portability, data export, or data
+migration functionality. Customer acknowledges that its data may be stored in proprietary
+formats and that export in a standard format is not guaranteed.
+
+4.3 Upon termination, Vendor may delete all Customer Data within thirty (30) days. Vendor
+shall have no obligation to maintain or provide Customer Data after termination.
+
+5. SERVICE LEVELS
+
+Vendor does not guarantee any specific level of service availability, performance, or
+uptime. The Service is provided "AS IS" and "AS AVAILABLE." Vendor makes no representations
+regarding the suitability, reliability, or availability of the Service.
+
+6. INDEMNIFICATION
+
+6.1 Customer shall indemnify, defend, and hold harmless Vendor and its affiliates, officers,
+directors, employees, and agents from and against any and all claims, damages, losses, costs,
+and expenses arising out of or relating to: (a) Customer's use of the Service; (b) Customer's
+violation of this Agreement; (c) any third-party claim related to Customer Data; and (d) any
+regulatory action or fine related to Customer's use of the Service.
+
+6.2 Vendor shall have no indemnification obligations to Customer.
+
+7. LIMITATION OF LIABILITY
+
+7.1 VENDOR'S TOTAL LIABILITY FOR ALL CLAIMS ARISING UNDER THIS AGREEMENT SHALL NOT EXCEED
+THE FEES PAID BY CUSTOMER DURING THE THREE (3) MONTHS PRECEDING THE CLAIM.
+
+7.2 IN NO EVENT SHALL VENDOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL,
+OR PUNITIVE DAMAGES.
+
+8. TERMINATION
+
+8.1 Vendor may terminate this Agreement at any time for any reason by providing thirty (30)
+days written notice.
+
+8.2 Customer may terminate this Agreement only at the end of a subscription term by providing
+notice as specified in Section 2.2. Early termination by Customer shall require payment of
+all remaining fees for the current term.
+
+9. GOVERNING LAW AND JURISDICTION
+
+This Agreement shall be governed by the laws of the State of California, United States. Any
+dispute arising out of or relating to this Agreement shall be subject to the exclusive
+jurisdiction of the state and federal courts located in San Francisco, California. Customer
+irrevocably submits to such jurisdiction and waives any objection to venue.
+
+10. GENERAL PROVISIONS
+
+10.1 This Agreement constitutes the entire agreement between the parties. Amendments require
+Vendor's written approval.
+
+10.2 Vendor may assign this Agreement to any affiliate or successor entity without Customer's
+consent. Customer may not assign this Agreement without Vendor's prior written consent.
+
+10.3 In the event of conflict between this Agreement and any purchase order, this Agreement
+shall prevail.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+DataVault Inc.                             Meridian Enterprises Pvt. Ltd.
+By: ________________________               By: ________________________
+Name: Michael Chen                         Name: Lakshmi Narayanan
+Title: VP of Sales                         Title: Chief Technology Officer

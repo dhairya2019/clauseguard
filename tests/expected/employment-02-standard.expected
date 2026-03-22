@@ -1,0 +1,14 @@
+# employment-02-standard: Employment agreement with GREEN risk profile
+# Standard Indian employment with reasonable terms
+MUST:Disclaimer
+MUST:not legal advice
+MUST:IP
+SHOULD:S.17
+SHOULD:personal
+SHOULD:named competitor
+SHOULD:GREEN
+SHOULD:30 day
+SHOULD:notice
+SHOULD:probation
+MUSTNOT:RED document
+MUSTNOT:void under S.27

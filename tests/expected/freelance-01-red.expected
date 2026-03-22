@@ -1,0 +1,20 @@
+# freelance-01-red: Freelance agreement with RED risk profile
+# Indian contractor + Delaware client = cross-border + jurisdiction issues
+MUST:HIGH
+MUST:payment
+MUST:IP
+MUST:non-compete
+MUST:termination
+MUST:Disclaimer
+MUST:not legal advice
+SHOULD:S.27
+SHOULD:Net 90
+SHOULD:sole discretion
+SHOULD:indemnif
+SHOULD:Delaware
+SHOULD:moral rights
+SHOULD:pre-existing
+SHOULD:FEMA
+MUSTNOT:GREEN document
+MUSTNOT:No action needed
+MUSTNOT:no issues

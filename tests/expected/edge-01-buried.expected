@@ -1,0 +1,18 @@
+# edge-01-buried: Freelance edge case with buried clauses
+# Risks hidden in Definitions, Confidentiality, and misleading "Mutual Obligations"
+MUST:HIGH
+MUST:Disclaimer
+MUST:not legal advice
+MUST:non-compete
+MUST:IP
+SHOULD:S.27
+SHOULD:exclusive
+SHOULD:buried
+SHOULD:one-sided
+SHOULD:Mutual Obligations
+SHOULD:Confidentiality
+SHOULD:moral rights
+SHOULD:New York
+MUSTNOT:GREEN document
+MUSTNOT:No action needed
+MUSTNOT:no issues

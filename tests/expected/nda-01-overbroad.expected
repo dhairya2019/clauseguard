@@ -1,0 +1,16 @@
+# nda-01-overbroad: NDA with RED risk profile
+# Foreign corp (London) + Indian party = cross-border + jurisdiction issues
+MUST:HIGH
+MUST:confidential
+MUST:Disclaimer
+MUST:not legal advice
+SHOULD:perpetual
+SHOULD:one-way
+SHOULD:liquidated damages
+SHOULD:overbroad
+SHOULD:London
+SHOULD:500,000
+SHOULD:no exclusion
+MUSTNOT:GREEN document
+MUSTNOT:No action needed
+MUSTNOT:no issues

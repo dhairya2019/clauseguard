@@ -1,0 +1,12 @@
+# nda-02-mutual: Mutual NDA with GREEN/LOW risk profile
+# Two Indian companies = domestic, standard mutual NDA
+MUST:Disclaimer
+MUST:not legal advice
+MUST:confidential
+SHOULD:mutual
+SHOULD:2-year
+SHOULD:exclusion
+SHOULD:GREEN
+SHOULD:return
+MUSTNOT:RED document
+MUSTNOT:void under

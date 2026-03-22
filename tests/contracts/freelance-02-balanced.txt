@@ -1,0 +1,110 @@
+INDEPENDENT CONTRACTOR AGREEMENT
+
+This Independent Contractor Agreement ("Agreement") is entered into as of February 1, 2026,
+by and between Pinnacle Solutions Pvt. Ltd., a company incorporated under the Companies Act,
+2013, having its registered office at Mumbai, Maharashtra, India ("Client"), and Priya Sharma,
+an independent contractor residing in Pune, Maharashtra, India ("Contractor").
+
+1. SCOPE OF WORK
+
+Contractor shall provide UI/UX design services as described in Exhibit A attached hereto.
+Deliverables, milestones, specifications, and acceptance criteria are defined in Exhibit A.
+Any changes to the scope of work shall require a written change order signed by both parties,
+specifying the revised deliverables, adjusted timeline, and additional fees if applicable.
+
+2. COMPENSATION AND PAYMENT
+
+2.1 Total project fee: INR 8,00,000 (Rupees Eight Lakhs).
+
+2.2 Payment shall be made in three milestone installments:
+    (a) INR 2,50,000 upon execution of this Agreement;
+    (b) INR 3,00,000 upon completion and acceptance of Milestone 2 (as defined in Exhibit A);
+    (c) INR 2,50,000 upon completion and acceptance of final deliverables.
+
+2.3 Each milestone payment is due within 30 days of invoice (Net 30). Invoices not paid
+within 30 days shall accrue interest at 1.5% per month or the maximum rate permitted by law,
+whichever is lower.
+
+2.4 Acceptance of deliverables shall be based on conformance to the specifications in
+Exhibit A. Client shall provide written acceptance or specific written objections within
+10 business days of delivery. Failure to respond within 10 business days shall constitute
+acceptance.
+
+3. INTELLECTUAL PROPERTY
+
+3.1 Contractor assigns to Client all intellectual property rights in deliverables created
+specifically for this project, as defined in Exhibit A.
+
+3.2 Contractor retains ownership of all pre-existing intellectual property, tools, frameworks,
+and methodologies ("Pre-Existing IP"). To the extent Pre-Existing IP is incorporated into
+deliverables, Contractor grants Client a non-exclusive, perpetual, royalty-free license to use
+such Pre-Existing IP solely as part of the deliverables.
+
+3.3 Contractor is granted a non-exclusive license to use deliverables in portfolio and case
+studies with client-identifying details removed, after a 6-month embargo period from project
+completion.
+
+4. NON-COMPETE
+
+During the term of this Agreement, Contractor shall not perform substantially similar UI/UX
+design services for the following named competitors of Client: DesignHub India Pvt. Ltd. and
+CreativeForce Technologies Pvt. Ltd. This restriction terminates upon expiration or termination
+of this Agreement. For clarity, Contractor's confidentiality obligations under Section 6 survive
+termination, but no restriction on Contractor's right to compete or work in their field of
+expertise shall apply after termination.
+
+5. TERMINATION
+
+5.1 Either party may terminate this Agreement with 14 days' written notice for any reason.
+
+5.2 Either party may terminate immediately upon material breach if the breaching party fails
+to cure within 14 days of written notice specifying the breach.
+
+5.3 Upon termination for any reason, Client shall pay for all work completed and accepted
+through the termination date, plus a pro-rata share of any in-progress milestone based on
+percentage of completion as mutually agreed.
+
+6. CONFIDENTIALITY
+
+6.1 Each party shall maintain the confidentiality of information designated as confidential
+by the disclosing party for a period of two (2) years following termination.
+
+6.2 Confidential Information expressly excludes: (a) information publicly available through
+no fault of the receiving party; (b) information independently developed without use of the
+disclosing party's information; (c) information received from a third party without restriction;
+(d) information required to be disclosed by law or court order, with prompt notice to the
+disclosing party.
+
+7. LIABILITY AND INDEMNIFICATION
+
+7.1 Each party's total aggregate liability under this Agreement shall not exceed the total
+fees paid or payable under this Agreement.
+
+7.2 Neither party shall be liable for indirect, incidental, consequential, special, or
+punitive damages.
+
+7.3 Each party shall indemnify and hold harmless the other from third-party claims arising
+from the indemnifying party's breach of this Agreement or negligence.
+
+8. GOVERNING LAW AND DISPUTE RESOLUTION
+
+8.1 This Agreement shall be governed by and construed in accordance with the laws of India.
+
+8.2 Any dispute arising out of or relating to this Agreement shall be resolved by arbitration
+administered by the Mumbai Centre for International Arbitration (MCIA) in accordance with its
+rules. The seat of arbitration shall be Mumbai, India. The language of arbitration shall be
+English.
+
+9. GENERAL PROVISIONS
+
+9.1 This Agreement constitutes the entire agreement between the parties. Amendments require
+written agreement signed by both parties.
+
+9.2 Neither party may assign this Agreement without the written consent of the other party.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+Pinnacle Solutions Pvt. Ltd.               Priya Sharma
+By: ________________________               ________________________
+Name: Amit Desai                           Contractor
+Title: Managing Director

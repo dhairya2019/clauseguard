@@ -1,0 +1,12 @@
+# saas-02-fair: SaaS agreement with GREEN risk profile
+# Indian vendor + Indian customer = domestic, standard fair SaaS
+MUST:Disclaimer
+MUST:not legal advice
+MUST:SLA
+SHOULD:99.9%
+SHOULD:data export
+SHOULD:GREEN
+SHOULD:mutual
+SHOULD:30 day
+SHOULD:liability cap
+MUSTNOT:RED document

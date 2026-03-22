@@ -1,0 +1,11 @@
+# tos-02-fair: Terms of Service with GREEN/MEDIUM risk profile
+# Fair ToS with liability cap, notice for changes, data export
+MUST:Disclaimer
+MUST:not legal advice
+MUST:liability
+SHOULD:30 day
+SHOULD:data export
+SHOULD:privacy
+SHOULD:GREEN
+SHOULD:notice
+MUSTNOT:RED document

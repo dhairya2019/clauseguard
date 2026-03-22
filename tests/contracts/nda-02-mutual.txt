@@ -1,0 +1,107 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Mutual Non-Disclosure Agreement ("Agreement") is entered into as of February 15, 2026,
+by and between InfoBridge Technologies Pvt. Ltd., a company incorporated under the Companies
+Act, 2013, with registered office at Noida, Uttar Pradesh, India ("Party A"), and DataSync
+Analytics Pvt. Ltd., a company incorporated under the Companies Act, 2013, with registered
+office at Bangalore, Karnataka, India ("Party B").
+
+Each of Party A and Party B may be referred to individually as a "Party" and collectively
+as the "Parties."
+
+RECITALS
+
+WHEREAS, the Parties wish to explore a potential business collaboration and, in connection
+therewith, each Party may disclose certain confidential and proprietary information to the
+other Party;
+
+NOW, THEREFORE, the Parties agree as follows:
+
+1. DEFINITION OF CONFIDENTIAL INFORMATION
+
+1.1 "Confidential Information" means any non-public information disclosed by one Party
+(the "Disclosing Party") to the other Party (the "Receiving Party"), whether in writing,
+orally, or by inspection, that is designated as confidential or that reasonably should be
+understood to be confidential given the nature of the information and the circumstances of
+disclosure.
+
+1.2 Confidential Information does not include information that: (a) is or becomes publicly
+available through no fault of the Receiving Party; (b) was known to the Receiving Party
+before disclosure by the Disclosing Party, as evidenced by written records; (c) is
+independently developed by the Receiving Party without use of or reference to the Disclosing
+Party's Confidential Information; (d) is rightfully received from a third party without
+restriction on disclosure; or (e) is required to be disclosed by applicable law, regulation,
+or court order, provided the Receiving Party gives prompt written notice to the Disclosing
+Party to allow the Disclosing Party to seek a protective order.
+
+2. OBLIGATIONS
+
+2.1 Each Party agrees to hold the other Party's Confidential Information in confidence and
+to not disclose such information to any third party except to its employees, contractors,
+and advisors who have a need to know and are bound by confidentiality obligations no less
+restrictive than those contained herein.
+
+2.2 Each Party shall use the other Party's Confidential Information solely for the purpose
+of evaluating and pursuing the potential business collaboration described above.
+
+2.3 Each Party shall protect the other Party's Confidential Information using the same degree
+of care it uses to protect its own confidential information, but in no event less than
+reasonable care.
+
+3. TERM AND DURATION
+
+3.1 This Agreement shall remain in effect for a period of two (2) years from the date of
+execution.
+
+3.2 The confidentiality obligations under Section 2 shall survive termination or expiration
+of this Agreement for a period of two (2) years from the date of last disclosure.
+
+4. RETURN OF MATERIALS
+
+Upon expiration or termination of this Agreement, or upon written request by the Disclosing
+Party, the Receiving Party shall promptly return or destroy all Confidential Information in
+its possession, including all copies, summaries, and excerpts, and shall certify in writing
+that it has done so.
+
+5. REMEDIES
+
+5.1 Each Party acknowledges that a breach of this Agreement may cause irreparable harm to
+the Disclosing Party. The Disclosing Party shall be entitled to seek equitable relief,
+including injunction and specific performance, in addition to any other remedies available
+at law.
+
+5.2 Neither Party shall be liable for indirect, incidental, or consequential damages arising
+out of this Agreement.
+
+6. NO LICENSE OR WARRANTY
+
+Nothing in this Agreement grants either Party any license or right under any patent, copyright,
+trademark, or other intellectual property right of the other Party. All Confidential Information
+is provided "AS IS" without warranty of any kind.
+
+7. GOVERNING LAW AND DISPUTE RESOLUTION
+
+7.1 This Agreement shall be governed by and construed in accordance with the laws of India.
+
+7.2 Any dispute arising out of or in connection with this Agreement shall first be submitted
+to mediation in accordance with the rules of the Delhi International Arbitration Centre (DIAC).
+If mediation fails, the dispute shall be resolved by arbitration under the rules of the DIAC.
+The seat of arbitration shall be New Delhi, India.
+
+8. GENERAL PROVISIONS
+
+8.1 This Agreement constitutes the entire agreement between the Parties regarding the
+subject matter hereof. Amendments require the written agreement of both Parties.
+
+8.2 Neither Party may assign its rights or obligations under this Agreement without the prior
+written consent of the other Party.
+
+8.3 If any provision of this Agreement is found to be unenforceable, the remaining provisions
+shall remain in full force and effect.
+
+IN WITNESS WHEREOF, the Parties have executed this Agreement as of the date first written above.
+
+InfoBridge Technologies Pvt. Ltd.          DataSync Analytics Pvt. Ltd.
+By: ________________________               By: ________________________
+Name: Sanjay Gupta                         Name: Meera Krishnan
+Title: Chief Executive Officer              Title: Chief Executive Officer
