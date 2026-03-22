@@ -16,10 +16,14 @@
 | HIGH | No late payment penalties or interest | Absence of "late payment", "interest", "penalty" in payment section |
 | HIGH | Vague or subjective acceptance criteria | "client satisfaction", "sole discretion", "deemed acceptable by client" |
 | HIGH | Payment contingent on subjective criteria | "upon approval", "when client is satisfied", "at client's discretion" |
+| HIGH | Pay-when-paid / pay-if-paid clauses | "payment contingent on client receiving payment", "pay-when-paid", "pay-if-paid", "upon receipt of payment from end client" |
+| HIGH | Right to offset / set-off without notice | "may deduct from payments", "right to offset", "set-off", "withhold amounts owed" without prior notice requirement |
 | MEDIUM | Net 60+ payment terms | "net 60", "within 60 days" |
 | MEDIUM | No milestone structure for projects >30 days | Single payment clause for long-duration projects |
 | MEDIUM | Penalty amounts not specified | "penalties may apply" without specific amounts or rates |
 | MEDIUM | Payment in non-standard currency | Currency not in: USD, EUR, GBP, INR, AUD, CAD, JPY, CHF, SGD |
+| MEDIUM | Payment only for "accepted" work with no acceptance timeline | "payment for accepted deliverables" with no deadline for acceptance decision |
+| MEDIUM | Retention / holdback clauses | "retain", "holdback", "withhold 10%", "withhold 20%", "released upon project completion" |
 | LOW | Milestone-based payments | "milestone", "phase payment", "progress billing" |
 | LOW | Net 30 or shorter payment terms | "net 30", "within 30 days", "net 15", "upon invoice" |
 | LOW | Late payment interest specified | "interest at X% per month", "late fee of X%" |
@@ -34,9 +38,13 @@
 | HIGH | No portfolio/case study carve-out | IP assignment with no mention of portfolio, case study, or display rights |
 | HIGH | "Work made for hire" without adequate consideration | "work for hire", "work made for hire" with no explicit compensation clause |
 | HIGH | Moral rights waiver | "waive moral rights", "waive all moral rights", "relinquish attribution" |
+| HIGH | Assignment of "ideas" and "concepts" (not just deliverables) | "ideas", "concepts", "know-how", "methodologies developed" assigned to client beyond project deliverables |
+| HIGH | IP assignment survives termination with no payment obligation | "IP assignment shall survive termination" with no corresponding payment-for-work-done clause |
 | MEDIUM | Broad IP assignment with limited carve-outs | Assignment of "project deliverables and related materials" with narrow license-back |
 | MEDIUM | No explicit pre-existing IP protection | No mention of "pre-existing IP", "prior works", "contractor's tools" |
 | MEDIUM | License-back for limited uses only | License-back restricted to "internal reference only" or similar narrow scope |
+| MEDIUM | "Background IP" not defined (ambiguous pre-existing IP boundary) | IP clause references "background IP" or "pre-existing IP" without explicit definition or listing |
+| MEDIUM | License-back restricted to single named project only | "license to use solely in connection with [Project Name]", "limited to the [specific] project" |
 | LOW | IP assignment of project deliverables only | "deliverables created specifically for this project", "project-specific work product" |
 | LOW | Pre-existing IP explicitly retained | "contractor retains all pre-existing IP", "prior works remain contractor's property" |
 | LOW | Portfolio/case study license granted | "contractor may use deliverables in portfolio", "case study rights", "display rights" |
@@ -48,9 +56,13 @@
 | HIGH | Unilateral termination at-will, no payment for completed work | "terminate at any time", "at will" with no payment-on-termination clause |
 | HIGH | No cure period for breach | "immediate termination", "terminate without notice" for breach |
 | HIGH | No kill fee or payment for in-progress work | Termination clause with no mention of payment for work done or kill fee |
+| HIGH | Termination for insolvency (may be unenforceable under IBC) | "terminate upon insolvency", "bankruptcy", "winding up", "unable to pay debts" as termination trigger |
+| HIGH | Forfeiture of all payments on termination for cause | "forfeit all payments", "no compensation due", "all amounts paid shall be refunded" upon cause termination |
 | MEDIUM | Short cure period (<7 days) | "cure within 3 days", "5 business days to cure" |
 | MEDIUM | Termination for convenience with minimal notice (<7 days) | "terminate for convenience with 3 days notice" |
 | MEDIUM | No payment for in-progress work on convenience termination | Convenience termination with payment only for "accepted deliverables" |
+| MEDIUM | Automatic termination on change of control | "automatically terminates upon change of control", "merger", "acquisition", "change in ownership" triggers termination |
+| MEDIUM | Survival clause covering unreasonable scope of obligations | "the following sections shall survive termination" covering indemnification, non-compete, IP assignment, and liability simultaneously |
 | LOW | Mutual termination with reasonable notice (14-30 days) | "either party may terminate with 14 days written notice" |
 | LOW | Payment for completed work on termination | "pay for all work completed through termination date" |
 | LOW | Cure period for breach (14+ days) | "cure within 14 days", "30-day cure period" |
@@ -63,9 +75,13 @@
 | HIGH | Liability cap exceeding contract value | "liability not to exceed 2x", "3x the contract value" |
 | HIGH | One-sided indemnification (freelancer indemnifies for everything) | "contractor shall indemnify" with no reciprocal "client shall indemnify" |
 | HIGH | Indemnification for client's own negligence | "indemnify against all claims including those arising from client's actions" |
+| HIGH | Indemnification for third-party IP claims where contractor has no control over client's use | "indemnify against IP infringement claims", "hold harmless from third-party IP" where client modifies or combines deliverables |
+| HIGH | "Gross negligence" / "willful misconduct" carve-outs from liability cap | "excluding gross negligence", "except for willful misconduct", "liability cap shall not apply to" -- effectively voids the cap |
 | MEDIUM | Liability cap at 1-2x contract value | "liability shall not exceed twice the fees paid" |
 | MEDIUM | One-sided indemnification with limited scope | "contractor indemnifies for IP infringement only" with no mutual clause |
 | MEDIUM | No mutual indemnification | Only one party has indemnification obligations |
+| MEDIUM | Indemnification for regulatory fines (potentially uncapped) | "indemnify for fines", "regulatory penalties", "government sanctions", "compliance violations" |
+| MEDIUM | Insurance requirements exceeding reasonable coverage for contract value | "maintain insurance of $X million", "professional indemnity insurance" where coverage far exceeds contract value |
 | LOW | Liability capped at fees paid | "total liability shall not exceed fees paid under this agreement" |
 | LOW | Mutual indemnification | "each party shall indemnify the other" |
 | LOW | Reasonable exclusions | Excludes consequential, indirect, punitive damages for both parties |
@@ -78,9 +94,12 @@
 | HIGH | "Other duties as assigned" language | "other duties as assigned", "additional tasks as needed", "and other work as directed" |
 | HIGH | Acceptance at sole discretion of client | "accepted at client's sole discretion", "client shall determine acceptability" |
 | HIGH | No change order process | No mention of "change order", "scope change", "amendment process" for scope modifications |
+| HIGH | "Reasonable requests" or "as reasonably required" language (unlimited scope) | "reasonable requests", "as reasonably required", "as may be necessary", "such other tasks as reasonably requested" |
 | MEDIUM | Vague deliverable descriptions | Deliverables described in general terms without specifications or measurable criteria |
 | MEDIUM | No formal change order process | Mentions scope changes but no written approval requirement or pricing adjustment |
 | MEDIUM | Acceptance criteria partially defined | Some criteria listed but subjective elements remain ("quality standards") |
+| MEDIUM | Acceptance by silence (deemed accepted if no response in N days) | "deemed accepted if no objection within", "silence constitutes acceptance", "failure to respond within N days" |
+| MEDIUM | Warranty period for deliverables exceeding 90 days | "warranty period of 6 months", "12-month warranty", "warrant for one year" on deliverable quality |
 | LOW | Clear deliverables list with specifications | Specific deliverables in exhibit with acceptance criteria |
 | LOW | Formal change order process with pricing | "changes require written change order", "adjusted timeline and fees" |
 | LOW | Objective acceptance criteria | "acceptance based on conformance to specifications in Exhibit A" |
@@ -93,11 +112,67 @@
 | HIGH | Geographically unrestricted non-compete | "worldwide", "globally", no geographic limitation on competition restriction |
 | HIGH | Covers entire industry | "in the field of", "in the industry of", broad sector restriction |
 | HIGH | Restricts working with "competitors" (undefined) | "shall not work with competitors" without naming specific companies |
+| HIGH | Non-compete disguised as "exclusivity" or "dedicated resources" clause | "exclusive services", "dedicated resource", "shall devote full time", "shall not provide services to others" in non-compete context |
 | MEDIUM | During-engagement non-compete (verify scope) | "during the term", "while engaged" + competition restriction |
 | MEDIUM | Non-solicitation of specific clients post-termination | "shall not solicit client's customers for N months after termination" |
 | MEDIUM | Broad non-solicitation (all contacts) | "shall not solicit any person or entity" introduced during engagement |
+| MEDIUM | Non-compete tied to confidentiality (conflating two distinct restrictions) | "confidentiality and non-competition", "as part of confidentiality obligations, shall not compete" -- merges NDA with non-compete |
 | LOW | Confidentiality/NDA obligations only | "shall not disclose confidential information" with no competition restriction |
 | LOW | Named-competitor restriction during engagement only | "shall not perform similar work for [Company X, Company Y] during the term" |
+
+### 7. Confidentiality / NDA
+
+| Risk | Trigger Pattern | Detection Keywords |
+|------|----------------|--------------------|
+| HIGH | Perpetual confidentiality obligation with no sunset clause | "in perpetuity", "indefinitely", "shall survive termination without limitation", no duration specified for confidentiality |
+| HIGH | Definition includes publicly available information or independently developed work | "confidential information includes all information", no exclusion for public domain or independently developed |
+| HIGH | Confidentiality breach triggers liquidated damages (often disproportionate) | "liquidated damages", "predetermined damages", "penalty of $X" for confidentiality breach |
+| MEDIUM | No carve-out for legally compelled disclosure | No mention of "required by law", "court order", "regulatory requirement" as permitted disclosure |
+| MEDIUM | One-way NDA when both parties share information | "receiving party shall not disclose" with only one party defined as receiving party despite mutual information sharing |
+
+### 8. Auto-Renewal & Contract Duration
+
+| Risk | Trigger Pattern | Detection Keywords |
+|------|----------------|--------------------|
+| HIGH | Auto-renewal with 90+ day advance notice requirement to cancel | "auto-renew", "automatically renew" with "90 days", "120 days", "180 days" prior written notice to cancel |
+| HIGH | Auto-renewal with price escalation clause (unspecified or uncapped increase) | "auto-renew at adjusted rates", "renewal price increase", "escalation" with no cap or formula specified |
+| MEDIUM | Evergreen contract with no maximum duration | "shall continue until terminated", "evergreen", no end date or maximum term specified |
+| MEDIUM | Lock-in period with early termination penalty | "minimum term", "lock-in", "early termination fee", "cancellation penalty", "liquidated damages for early termination" |
+
+### 9. Assignment & Subcontracting
+
+| Risk | Trigger Pattern | Detection Keywords |
+|------|----------------|--------------------|
+| HIGH | Client can assign contract to any entity without consent | "client may assign without consent", "freely assignable by client", "client may transfer this agreement" |
+| HIGH | Assignment includes assignment of obligations without consent | "assign rights and obligations", "transfer all rights and duties" without requiring counterparty consent |
+| MEDIUM | No-subcontracting clause for complex deliverables | "shall not subcontract", "must perform personally", "no delegation" for projects requiring team or specialist work |
+| LOW | Mutual consent required for assignment | "neither party may assign without written consent", "assignment requires mutual agreement" |
+
+### 10. Force Majeure
+
+| Risk | Trigger Pattern | Detection Keywords |
+|------|----------------|--------------------|
+| MEDIUM | No force majeure clause in long-term contract (>6 months) | Absence of "force majeure", "act of God", "beyond reasonable control" in contracts with term exceeding 6 months |
+| MEDIUM | Force majeure only protects one party | "client shall be excused" or "contractor shall be excused" without reciprocal protection for the other party |
+| MEDIUM | Force majeure definition excludes pandemic/epidemic/government action | "force majeure" clause that does not list "pandemic", "epidemic", "government order", "quarantine", "lockdown" |
+
+### 11. Data Protection & Privacy
+
+| Risk | Trigger Pattern | Detection Keywords |
+|------|----------------|--------------------|
+| HIGH | No data processing obligations defined when handling personal data | Contract involves personal data handling with no "data processing", "data protection", "privacy" obligations specified |
+| HIGH | Contractor liable for client's data practices / data breaches | "contractor shall be liable for any data breach", "indemnify for data incidents" regardless of fault |
+| MEDIUM | No breach notification timeline specified | "notify of data breach" with no specific timeframe ("within 24 hours", "within 72 hours", "promptly") |
+| MEDIUM | Cross-border data transfer without compliance mechanism | "data may be transferred", "process data in any jurisdiction" with no mention of "adequacy decision", "standard contractual clauses", "DPDP Act", "GDPR" compliance |
+
+### 12. Warranties & Representations
+
+| Risk | Trigger Pattern | Detection Keywords |
+|------|----------------|--------------------|
+| HIGH | Unlimited warranty period ("in perpetuity") | "warrant in perpetuity", "permanent warranty", "unlimited warranty period", no warranty expiration date |
+| HIGH | Warranty of fitness for purpose (vs. workmanlike effort) | "fit for a particular purpose", "fitness for purpose", "suitable for client's intended use" -- higher standard than workmanlike effort |
+| MEDIUM | Warranty that work does not infringe any IP (impossible to guarantee absolutely) | "warrants non-infringement of any intellectual property", "guarantees no IP infringement worldwide" -- absolute guarantee |
+| MEDIUM | Representation of "exclusive" skills or qualifications not actually required | "represents exclusive expertise", "uniquely qualified", "sole specialist" -- creates heightened duty of care |
 
 ---
 
@@ -144,6 +219,30 @@
 | MEDIUM | Intellectual property rights | Unclear IP terms for user-generated content or uploaded materials |
 | MEDIUM | Indemnification | One-sided indemnification shifts all risk to the user |
 
+### Employment Contract
+
+| Priority | Missing Clause | Why It Matters |
+|----------|---------------|----------------|
+| CRITICAL | Compensation and benefits defined | Without explicit compensation terms, disputes over pay structure and benefits are inevitable |
+| CRITICAL | Notice period (mutual) | No notice period means either party can end employment abruptly with no transition time |
+| HIGH | IP ownership clause distinguishing employment work from personal projects | Without this distinction, employer may claim ownership of personal side projects and inventions |
+| HIGH | Non-compete scope limited to during-engagement | Post-termination non-competes are unenforceable under Indian Contract Act S.27 but still create legal hassle |
+| MEDIUM | Probation terms and evaluation criteria | Undefined probation creates uncertainty about confirmation timeline and performance expectations |
+| MEDIUM | Leave policy reference | No leave terms or policy reference means entitlements are ambiguous |
+| LOW | Relocation/remote work terms | Unclear location terms create disputes if work arrangement changes |
+
+### SaaS Agreement
+
+| Priority | Missing Clause | Why It Matters |
+|----------|---------------|----------------|
+| CRITICAL | Service Level Agreement (SLA) with uptime guarantee | No SLA means no recourse when service goes down -- no uptime commitment, no remedies |
+| CRITICAL | Data ownership and portability | Without data ownership clarity, vendor may claim rights to your data or restrict export |
+| HIGH | Termination rights and data export timeline | No export timeline means vendor can delete your data immediately upon termination |
+| HIGH | Limitation of liability | Uncapped liability exposure for service-related issues and outages |
+| MEDIUM | Support response times | No defined support SLA means no obligation to respond to issues within any timeframe |
+| MEDIUM | Security and compliance certifications | No security commitments means no accountability for data protection practices |
+| LOW | Integration and API access terms | Unclear API terms can limit your ability to integrate or build on the service |
+
 ---
 
 ## Section 3: Safer Alternative Templates
@@ -173,6 +272,18 @@ Standard market language for each category. Frame as "what balanced contracts ty
 ### Non-Compete
 
 > **Standard market language:** "During the term of this agreement, Contractor shall not perform substantially similar services for [specific named competitor(s)]. This restriction terminates upon expiration or termination of this agreement. For clarity, Contractor's confidentiality obligations under Section [X] survive termination, but no restriction on Contractor's right to compete or work in their field of expertise shall apply after termination."
+
+### Confidentiality / NDA
+
+> **Standard market language:** "Confidential Information means information disclosed by either party that is marked as confidential or would reasonably be understood to be confidential given the nature of the information and circumstances of disclosure. Confidential Information expressly excludes: (a) information publicly available through no fault of receiving party, (b) information independently developed without use of disclosing party's information, (c) information received from a third party without restriction, (d) information required to be disclosed by law or court order (with prompt notice to disclosing party). Confidentiality obligations shall remain in effect for [2-3] years following termination of this agreement."
+
+### Auto-Renewal & Contract Duration
+
+> **Standard market language:** "This agreement shall have an initial term of [N] months/years commencing on the Effective Date. The agreement shall automatically renew for successive [N]-month/year periods unless either party provides written notice of non-renewal at least [30] days prior to the end of the then-current term. Fees for any renewal term shall not increase by more than [X]% over the prior term without mutual written agreement."
+
+### Data Protection & Privacy
+
+> **Standard market language:** "Each party shall comply with all applicable data protection laws, including the Digital Personal Data Protection Act, 2023 (where applicable) and GDPR (where applicable). Where Contractor processes personal data on behalf of Client, the parties shall enter into a data processing agreement. Either party shall notify the other of any data breach involving the other party's data within 72 hours of becoming aware of such breach. Cross-border transfers of personal data shall be conducted in compliance with applicable data transfer mechanisms."
 
 ---
 
