@@ -29,6 +29,24 @@ Plans:
 - [ ] 01-01: SKILL.md core — frontmatter, analysis instructions, risk classification system, output format
 - [ ] 01-02: Supporting reference files — clause-patterns.md (risky patterns per category), india-law.md (S.27, S.28, S.25, FEMA, jurisdiction rules)
 
+### Phase 01.1: Harden Skill — Deep Contract Knowledge, Tests, Docker Validation (INSERTED)
+**Goal**: Massively expand contract analysis knowledge (10x clause patterns, real-world contract examples, edge cases), add automated test suite against sample contracts, and create Docker setup for end-to-end validation
+**Depends on**: Phase 1
+**Requirements**: HARDEN-01, HARDEN-02, HARDEN-03, HARDEN-04, HARDEN-05, HARDEN-06
+**Success Criteria** (what must be TRUE):
+  1. clause-patterns.md contains 50+ risky clause patterns across all categories (up from ~18)
+  2. india-law.md covers 20+ Indian legal provisions with real case citations
+  3. Test suite with 10+ sample contracts (real-world style) passes automated validation
+  4. Docker container runs the skill against sample contracts and produces analysis output
+  5. Each sample contract type (freelance, NDA, ToS, employment, SaaS) has at least 2 test fixtures
+  6. Analysis correctly identifies known red/yellow/green clauses in test contracts
+**Plans**: 3 plans
+
+Plans:
+- [ ] 01.1-01: Expand clause-patterns.md to 50+ patterns across 12 categories + edge case detection patterns
+- [ ] 01.1-02: Expand india-law.md to 20+ provisions with case citations across 6 legal areas
+- [ ] 01.1-03: Create 12 test fixtures, test runner script, and Docker validation setup
+
 ### Phase 2: MCP Server + Analysis Engine
 **Goal**: Build an npm-publishable MCP server that calls Claude API with a specialized system prompt and returns structured JSON analysis
 **Depends on**: Phase 1
