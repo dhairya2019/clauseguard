@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: unknown
-stopped_at: Completed 03-03-PLAN.md
-last_updated: "2026-03-22T13:29:05.215Z"
+status: in-progress
+stopped_at: Completed 04-01-PLAN.md
+last_updated: "2026-03-22T14:21:36Z"
 progress:
   total_phases: 4
   completed_phases: 4
-  total_plans: 11
-  completed_plans: 11
+  total_plans: 12
+  completed_plans: 12
 ---
 
 # Project State: ClauseGuard
@@ -19,15 +19,15 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-22)
 
 **Core value:** Anyone can understand what a contract actually says and spot clauses that could hurt them
-**Current focus:** Phase 3 -- Web App Core (Next.js, streaming analysis, landing page)
+**Current focus:** Phase 4 -- Freemium Monetization (rate limiting, payments, usage tracking)
 
 ## Current Phase
 
-**Phase 3: Web App Core**
-- Status: Complete (all 3 plans executed)
-- Research: Complete (03-RESEARCH.md)
-- Plans: 3/3 complete
-- Progress: [====================] 100%
+**Phase 4: Freemium Monetization**
+- Status: In Progress
+- Research: Complete (04-RESEARCH.md)
+- Plans: 1/2 complete
+- Progress: [==========..........] 50%
 
 ## Completed Phases
 
@@ -35,6 +35,7 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 - Phase 1.1: Harden Skill (107 patterns, 28 provisions, 12 test fixtures, Docker) ✓
 - Phase 2: MCP Server + Analysis Engine (scaffold, Claude API integration, build pipeline) ✓
 - Phase 3: Web App Core (Next.js scaffold, streaming analysis, results UI) ✓
+- Phase 4 Plan 1: Rate limiting + fingerprinting (Upstash Redis, FingerprintJS, usage counter) ✓
 
 ## Session Log
 
@@ -54,6 +55,8 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 | 2026-03-22 | Plan 03-01 executed | Next.js 15 scaffold + landing page (hero, how-it-works, pricing, FAQ) — all Server Components |
 | 2026-03-22 | Plan 03-02 executed | Streaming analysis pipeline — Zod schema, system prompt, Route Handler, useObject page |
 | 2026-03-22 | Plan 03-03 executed | Results UI — ClauseCard, RiskSummary, RiskBadge, Disclaimer, ClauseSkeleton, ResultsPanel |
+| 2026-03-22 | Phase 4 research done | Upstash Redis + FingerprintJS + Razorpay patterns researched |
+| 2026-03-22 | Plan 04-01 executed | Rate limiting + fingerprinting — Upstash Redis, FingerprintJS, usage counter, 429 handling |
 
 ## Active Decisions
 
@@ -82,6 +85,9 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 - Zod v4 type-only z.infer compatible with web-app dependency
 - DeepPartial<Record<string, unknown>> for ResultsPanel props — avoids complex generic type gymnastics with useObject
 - flexGrow-based proportional bar for risk breakdown visualization — handles zero values naturally
+- Raw Redis INCR/DECR instead of @upstash/ratelimit -- lifetime counter semantics, not time-window rate limiting
+- UsageCounter on analyze page only, not global navbar -- avoids unnecessary client hydration on landing page
+- useObject headers option for dynamic X-Fingerprint header -- avoids custom fetch wrapper
 
 ## Roadmap Evolution
 
@@ -103,10 +109,11 @@ None.
 | 03 | 01 | 5min | 2 | 36 |
 | 03 | 02 | 4min | 2 | 6 |
 | 03 | 03 | 4min | 2 | 7 |
+| 04 | 01 | 3min | 2 | 8 |
 
 ## Last Session
 
-- **Stopped at:** Completed 03-03-PLAN.md
-- **Resume with:** Next phase or deployment
-- **Timestamp:** 2026-03-22T13:26:00Z
-- **Pending user requests:** Run tests, Docker validation, push latest to GitHub
+- **Stopped at:** Completed 04-01-PLAN.md
+- **Resume with:** Execute 04-02-PLAN.md (Razorpay payments)
+- **Timestamp:** 2026-03-22T14:21:36Z
+- **Pending user requests:** Set UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN env vars for runtime
