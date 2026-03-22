@@ -9,9 +9,9 @@
 
 - [x] **SKILL-01**: SKILL.md with optimized frontmatter (name, description with trigger phrases, argument-hint)
 - [x] **SKILL-02**: Analysis instructions covering document type identification, clause-by-clause risk flagging, plain English explanations, safer alternatives
-- [ ] **SKILL-03**: India-specific analysis rules: Section 27 non-compete, Section 28 legal proceedings, Section 25 consideration, jurisdiction flags, FEMA awareness
+- [x] **SKILL-03**: India-specific analysis rules: Section 27 non-compete, Section 28 legal proceedings, Section 25 consideration, jurisdiction flags, FEMA awareness
 - [x] **SKILL-04**: Risk classification system with 🔴 High / 🟡 Medium / 🟢 Low indicators and clear action guidance
-- [ ] **SKILL-05**: Supporting reference files for clause patterns and Indian law context
+- [x] **SKILL-05**: Supporting reference files for clause patterns and Indian law context
 - [x] **SKILL-06**: Legal disclaimer on every output ("not legal advice, consult a qualified advocate")
 - [x] **SKILL-07**: "Consult a lawyer" escalation flags for high-severity issues
 
@@ -101,9 +101,9 @@
 |-------------|-------|--------|
 | SKILL-01 | Phase 1 | Complete |
 | SKILL-02 | Phase 1 | Complete |
-| SKILL-03 | Phase 1 | Pending |
+| SKILL-03 | Phase 1 | Complete |
 | SKILL-04 | Phase 1 | Complete |
-| SKILL-05 | Phase 1 | Pending |
+| SKILL-05 | Phase 1 | Complete |
 | SKILL-06 | Phase 1 | Complete |
 | SKILL-07 | Phase 1 | Complete |
 | MCP-01 | Phase 2 | Pending |
