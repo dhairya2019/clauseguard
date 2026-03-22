@@ -6,11 +6,13 @@ import { contractAnalysisSchema } from "@/lib/schemas";
 import { ContractInput } from "@/components/analysis/contract-input";
 import { ResultsPanel } from "@/components/analysis/results-panel";
 import { UsageCounter } from "@/components/freemium/usage-counter";
+import { UpgradeModal } from "@/components/freemium/upgrade-modal";
 import { useFingerprint } from "@/lib/fingerprint";
 import {
   getLocalUsage,
   setLocalUsage,
   incrementLocalUsage,
+  markLocalPaid,
   type UsageData,
 } from "@/lib/usage";
 
@@ -68,6 +70,12 @@ export default function AnalyzePage() {
     },
   });
 
+  const handlePaymentSuccess = () => {
+    markLocalPaid();
+    setUsageData({ used: 0, limit: Infinity, isPaid: true });
+    setShowUpgradeModal(false);
+  };
+
   const handleAnalyze = (contractText: string) => {
     // Check local usage first for instant feedback
     if (!usageData.isPaid && usageData.used >= usageData.limit) {
@@ -105,21 +113,20 @@ export default function AnalyzePage() {
             Stop analysis
           </button>
         )}
-        {showUpgradeModal && !usageData.isPaid && (
-          <div className="mt-4 rounded-lg border border-red-200 bg-red-50 p-4">
-            <p className="font-semibold text-red-800">Free analysis limit reached</p>
-            <p className="text-sm text-red-700 mt-1">
-              You have used all {usageData.limit} free contract analyses. Upgrade to continue analyzing contracts.
-            </p>
-            {/* Upgrade modal / payment button will be wired in plan 04-02 */}
-          </div>
-        )}
       </div>
 
       {/* Right panel: Results */}
       <div className="w-full lg:w-1/2">
         <ResultsPanel object={object} isLoading={isLoading} error={error} />
       </div>
+
+      {/* Upgrade modal for payment */}
+      <UpgradeModal
+        open={showUpgradeModal && !usageData.isPaid}
+        onOpenChange={setShowUpgradeModal}
+        fingerprint={fingerprint}
+        onPaymentSuccess={handlePaymentSuccess}
+      />
     </div>
   );
 }

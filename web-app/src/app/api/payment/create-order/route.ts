@@ -1,16 +1,25 @@
 import Razorpay from "razorpay";
 import { getUserIdentifier } from "@/lib/redis";
 
-const razorpay = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID!,
-  key_secret: process.env.RAZORPAY_KEY_SECRET!,
-});
+// Lazy singleton — avoid module-level instantiation that fails at build time
+// when RAZORPAY_KEY_ID env var is not set.
+let razorpayInstance: Razorpay | null = null;
+
+function getRazorpay(): Razorpay {
+  if (!razorpayInstance) {
+    razorpayInstance = new Razorpay({
+      key_id: process.env.RAZORPAY_KEY_ID!,
+      key_secret: process.env.RAZORPAY_KEY_SECRET!,
+    });
+  }
+  return razorpayInstance;
+}
 
 export async function POST(req: Request) {
   try {
     const identifier = getUserIdentifier(req);
 
-    const order = await razorpay.orders.create({
+    const order = await getRazorpay().orders.create({
       amount: 29900, // INR 299.00 in paise
       currency: "INR",
       receipt: `cg_${Date.now()}`,
