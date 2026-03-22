@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: paused
-stopped_at: Phase 3 planning — research done, plans not yet created
-last_updated: "2026-03-22T10:00:00.000Z"
+status: executing
+stopped_at: Completed 03-01-PLAN.md
+last_updated: "2026-03-22T13:12:30.000Z"
 progress:
   total_phases: 4
   completed_phases: 3
   total_plans: 11
-  completed_plans: 8
+  completed_plans: 9
 ---
 
 # Project State: ClauseGuard
@@ -24,10 +24,10 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 ## Current Phase
 
 **Phase 3: Web App Core**
-- Status: Planning (research done, plans not yet generated)
+- Status: Executing (Plan 01 complete, Plans 02-03 remaining)
 - Research: Complete (03-RESEARCH.md)
-- Plans: 0/3 created
-- Progress: [                    ] 0%
+- Plans: 1/3 complete
+- Progress: [=======             ] 33%
 
 ## Completed Phases
 
@@ -50,6 +50,7 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 | 2026-03-22 | GitHub repo created | Pushed to github.com/dhairya-t/ClauseGaurd |
 | 2026-03-22 | Phase 3 research done | Next.js + Vercel AI SDK v6 + shadcn/ui patterns researched |
 | 2026-03-22 | Session paused | Phase 3 planning in progress — research complete, plans not yet generated |
+| 2026-03-22 | Plan 03-01 executed | Next.js 15 scaffold + landing page (hero, how-it-works, pricing, FAQ) — all Server Components |
 
 ## Active Decisions
 
@@ -70,6 +71,9 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 - MUST/SHOULD/MUSTNOT marker format for fixture-based regression testing
 - MUSTNOT patterns prevent false GREEN classification on RED-profile contracts
 - Machine-readable counter output from validate.sh for CI integration
+- Inline Tailwind classes for link buttons instead of buttonVariants() — Next.js 16 blocks client function calls from Server Components
+- All landing page components as pure Server Components (no "use client") for SSR/SEO
+- Removed nested .git from create-next-app to maintain monorepo structure
 
 ## Roadmap Evolution
 
@@ -88,10 +92,11 @@ None.
 | 01.1 | 01 | 7min | 2 | 1 |
 | 01.1 | 02 | 6min | 2 | 1 |
 | 01.1 | 03 | 7min | 2 | 29 |
+| 03 | 01 | 5min | 2 | 36 |
 
 ## Last Session
 
-- **Stopped at:** Phase 3 plan-phase — research complete, planner not yet spawned
-- **Resume with:** `/gsd:plan-phase 3 --skip-research` then `/gsd:execute-phase 3`
-- **Timestamp:** 2026-03-22
+- **Stopped at:** Completed 03-01-PLAN.md
+- **Resume with:** `/gsd:execute-phase 3` (continues with Plan 03-02)
+- **Timestamp:** 2026-03-22T13:12:30Z
 - **Pending user requests:** Run tests, Docker validation, push latest to GitHub

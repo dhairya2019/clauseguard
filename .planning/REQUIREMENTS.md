@@ -37,8 +37,8 @@
 
 ### WEB — Web Application
 
-- [ ] **WEB-01**: Next.js App Router project with Tailwind CSS and shadcn/ui components
-- [ ] **WEB-02**: Landing page with hero, how-it-works, pricing, FAQ sections (SSR for SEO)
+- [x] **WEB-01**: Next.js App Router project with Tailwind CSS and shadcn/ui components
+- [x] **WEB-02**: Landing page with hero, how-it-works, pricing, FAQ sections (SSR for SEO)
 - [ ] **WEB-03**: Analysis page with contract text input (textarea) and results panel (side-by-side desktop, stacked mobile)
 - [ ] **WEB-04**: Streaming AI response via Vercel AI SDK Route Handler calling Claude API
 - [ ] **WEB-05**: Clause-by-clause results display with color-coded risk cards (red/yellow/green border-left)
@@ -46,7 +46,7 @@
 - [ ] **WEB-07**: Progressive streaming UX: skeleton loaders, fade-in clause cards, real-time summary updates
 - [ ] **WEB-08**: India-specific analysis rules in system prompt (same as MCP/SKILL)
 - [ ] **WEB-09**: Legal disclaimer displayed on every analysis output
-- [ ] **WEB-10**: Mobile-responsive layout, professional trust-building design (muted blues, generous spacing)
+- [x] **WEB-10**: Mobile-responsive layout, professional trust-building design (muted blues, generous spacing)
 
 ### FREEM — Freemium Layer
 
@@ -139,8 +139,8 @@
 | ANALYSIS-08 | Phase 2 | Pending |
 | ANALYSIS-09 | Phase 2 | Pending |
 | ANALYSIS-10 | Phase 2 | Pending |
-| WEB-01 | Phase 3 | Pending |
-| WEB-02 | Phase 3 | Pending |
+| WEB-01 | Phase 3 | Complete |
+| WEB-02 | Phase 3 | Complete |
 | WEB-03 | Phase 3 | Pending |
 | WEB-04 | Phase 3 | Pending |
 | WEB-05 | Phase 3 | Pending |
@@ -148,7 +148,7 @@
 | WEB-07 | Phase 3 | Pending |
 | WEB-08 | Phase 3 | Pending |
 | WEB-09 | Phase 3 | Pending |
-| WEB-10 | Phase 3 | Pending |
+| WEB-10 | Phase 3 | Complete |
 | FREEM-01 | Phase 4 | Pending |
 | FREEM-02 | Phase 4 | Pending |
 | FREEM-03 | Phase 4 | Pending |
