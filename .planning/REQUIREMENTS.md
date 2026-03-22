@@ -41,11 +41,11 @@
 - [x] **WEB-02**: Landing page with hero, how-it-works, pricing, FAQ sections (SSR for SEO)
 - [x] **WEB-03**: Analysis page with contract text input (textarea) and results panel (side-by-side desktop, stacked mobile)
 - [x] **WEB-04**: Streaming AI response via Vercel AI SDK Route Handler calling Claude API
-- [ ] **WEB-05**: Clause-by-clause results display with color-coded risk cards (red/yellow/green border-left)
-- [ ] **WEB-06**: Risk summary dashboard (counts per risk level) above clause results
-- [ ] **WEB-07**: Progressive streaming UX: skeleton loaders, fade-in clause cards, real-time summary updates
+- [x] **WEB-05**: Clause-by-clause results display with color-coded risk cards (red/yellow/green border-left)
+- [x] **WEB-06**: Risk summary dashboard (counts per risk level) above clause results
+- [x] **WEB-07**: Progressive streaming UX: skeleton loaders, fade-in clause cards, real-time summary updates
 - [x] **WEB-08**: India-specific analysis rules in system prompt (same as MCP/SKILL)
-- [ ] **WEB-09**: Legal disclaimer displayed on every analysis output
+- [x] **WEB-09**: Legal disclaimer displayed on every analysis output
 - [x] **WEB-10**: Mobile-responsive layout, professional trust-building design (muted blues, generous spacing)
 
 ### FREEM — Freemium Layer
@@ -143,11 +143,11 @@
 | WEB-02 | Phase 3 | Complete |
 | WEB-03 | Phase 3 | Complete |
 | WEB-04 | Phase 3 | Complete |
-| WEB-05 | Phase 3 | Pending |
-| WEB-06 | Phase 3 | Pending |
-| WEB-07 | Phase 3 | Pending |
+| WEB-05 | Phase 3 | Complete |
+| WEB-06 | Phase 3 | Complete |
+| WEB-07 | Phase 3 | Complete |
 | WEB-08 | Phase 3 | Complete |
-| WEB-09 | Phase 3 | Pending |
+| WEB-09 | Phase 3 | Complete |
 | WEB-10 | Phase 3 | Complete |
 | FREEM-01 | Phase 4 | Pending |
 | FREEM-02 | Phase 4 | Pending |
