@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: in-progress
-stopped_at: Completed 01.1-01-PLAN.md
-last_updated: "2026-03-22T02:26:00Z"
+status: unknown
+stopped_at: Completed 01.1-02-PLAN.md
+last_updated: "2026-03-22T02:27:03Z"
 progress:
   total_phases: 2
   completed_phases: 1
   total_plans: 5
-  completed_plans: 3
+  completed_plans: 4
 ---
 
 # Project State: ClauseGuard
@@ -25,9 +25,9 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 
 **Phase 01.1: Harden Skill**
 - Status: In Progress
-- Plans: 1/3 complete
-- Current Plan: 2
-- Progress: [=======             ] 33%
+- Plans: 2/3 complete
+- Current Plan: 3
+- Progress: [=============       ] 67%
 
 ## Session Log
 
@@ -38,6 +38,7 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 | 2026-03-22 | Plan 01-01 executed | SKILL.md created (319 lines) with 8-step workflow, risk system, output format, disclaimer |
 | 2026-03-22 | Plan 01-02 executed | clause-patterns.md and india-law.md reference files created |
 | 2026-03-22 | Plan 01.1-01 executed | clause-patterns.md expanded to 107 patterns across 12 categories + 6 edge case detection categories |
+| 2026-03-22 | Plan 01.1-02 executed | india-law.md expanded to 28+ provisions across 6 legal areas with case citations and confidence markers |
 
 ## Active Decisions
 
@@ -51,6 +52,9 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 - Kept all patterns in single file rather than splitting by category for Phase 2 MCP extraction simplicity
 - Edge case detection guidance uses prose paragraphs alongside tables for actionable instructions
 - Used Detection Keywords column consistently across all pattern types for model-agnostic matching
+- [VERIFIED]/[CITED] confidence markers on case citations for trust calibration
+- S.73 and S.74 split into separate provisions for granular penalty analysis
+- Copyright Act S.17/S.57 and Arbitration Act S.7/S.11/S.12 added as new legal areas
 
 ## Roadmap Evolution
 
@@ -67,8 +71,9 @@ None.
 | 01 | 01 | 3min | 2 | 1 |
 | 01 | 02 | 4min | 2 | 2 |
 | 01.1 | 01 | 7min | 2 | 1 |
+| 01.1 | 02 | 6min | 2 | 1 |
 
 ## Last Session
 
-- **Stopped at:** Completed 01.1-01-PLAN.md
-- **Timestamp:** 2026-03-22T02:26:00Z
+- **Stopped at:** Completed 01.1-02-PLAN.md
+- **Timestamp:** 2026-03-22T02:27:03Z
