@@ -1,0 +1,18 @@
+{
+  "project_name": "ClauseGuard",
+  "created": "2026-03-22",
+  "preferences": {
+    "commit_docs": true,
+    "commit_code": true,
+    "research_enabled": true,
+    "auto_verify": true
+  },
+  "models": {
+    "researcher": "opus",
+    "synthesizer": "opus",
+    "roadmapper": "opus",
+    "planner": "opus",
+    "executor": "opus",
+    "verifier": "opus"
+  }
+}
