@@ -1,6 +1,13 @@
 import { Redis } from "@upstash/redis";
 
-export const redis = Redis.fromEnv();
+let _redis: Redis | null = null;
+
+function getRedis(): Redis {
+  if (!_redis) {
+    _redis = Redis.fromEnv();
+  }
+  return _redis;
+}
 
 const FREE_LIMIT = 3;
 const USAGE_PREFIX = "usage:";
@@ -32,17 +39,17 @@ export async function checkAndIncrementUsage(identifier: string): Promise<{
   const usageKey = `${USAGE_PREFIX}${identifier}`;
 
   // Check if user is paid first
-  const isPaid = await redis.get<boolean>(paidKey);
+  const isPaid = await getRedis().get<boolean>(paidKey);
   if (isPaid) {
     return { allowed: true, used: 0, limit: Infinity, remaining: Infinity, isPaid: true };
   }
 
   // Increment and check free usage (atomic INCR)
-  const used = await redis.incr(usageKey);
+  const used = await getRedis().incr(usageKey);
 
   if (used > FREE_LIMIT) {
     // Decrement back since we shouldn't count this blocked attempt
-    await redis.decr(usageKey);
+    await getRedis().decr(usageKey);
     return { allowed: false, used: FREE_LIMIT, limit: FREE_LIMIT, remaining: 0, isPaid: false };
   }
 
@@ -64,11 +71,11 @@ export async function getUsageStatus(identifier: string): Promise<{
   remaining: number;
   isPaid: boolean;
 }> {
-  const isPaid = await redis.get<boolean>(`${PAID_PREFIX}${identifier}`);
+  const isPaid = await getRedis().get<boolean>(`${PAID_PREFIX}${identifier}`);
   if (isPaid) {
     return { used: 0, limit: Infinity, remaining: Infinity, isPaid: true };
   }
-  const used = (await redis.get<number>(`${USAGE_PREFIX}${identifier}`)) || 0;
+  const used = (await getRedis().get<number>(`${USAGE_PREFIX}${identifier}`)) || 0;
   return { used, limit: FREE_LIMIT, remaining: Math.max(0, FREE_LIMIT - used), isPaid: false };
 }
 
@@ -76,5 +83,5 @@ export async function getUsageStatus(identifier: string): Promise<{
  * Mark an identifier as paid (permanent, no TTL).
  */
 export async function markAsPaid(identifier: string): Promise<void> {
-  await redis.set(`${PAID_PREFIX}${identifier}`, true);
+  await getRedis().set(`${PAID_PREFIX}${identifier}`, true);
 }
