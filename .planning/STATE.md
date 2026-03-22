@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: unknown
-stopped_at: Completed 01-02-PLAN.md (Phase 1 complete)
-last_updated: "2026-03-22T01:50:41.098Z"
+status: in-progress
+stopped_at: Completed 01.1-01-PLAN.md
+last_updated: "2026-03-22T02:26:00Z"
 progress:
-  total_phases: 1
+  total_phases: 2
   completed_phases: 1
-  total_plans: 2
-  completed_plans: 2
+  total_plans: 5
+  completed_plans: 3
 ---
 
 # Project State: ClauseGuard
@@ -19,15 +19,15 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-22)
 
 **Core value:** Anyone can understand what a contract actually says and spot clauses that could hurt them
-**Current focus:** Phase 1 -- Claude Code SKILL
+**Current focus:** Phase 01.1 -- Harden Skill (deep contract knowledge, tests, Docker validation)
 
 ## Current Phase
 
-**Phase 1: Claude Code SKILL**
-- Status: Complete
-- Plans: 2/2 complete
+**Phase 01.1: Harden Skill**
+- Status: In Progress
+- Plans: 1/3 complete
 - Current Plan: 2
-- Progress: [====================] 100%
+- Progress: [=======             ] 33%
 
 ## Session Log
 
@@ -37,6 +37,7 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 | 2026-03-22 | Research completed | 4 parallel agents: Technology, Features, Architecture, Indian Law |
 | 2026-03-22 | Plan 01-01 executed | SKILL.md created (319 lines) with 8-step workflow, risk system, output format, disclaimer |
 | 2026-03-22 | Plan 01-02 executed | clause-patterns.md and india-law.md reference files created |
+| 2026-03-22 | Plan 01.1-01 executed | clause-patterns.md expanded to 107 patterns across 12 categories + 6 edge case detection categories |
 
 ## Active Decisions
 
@@ -47,10 +48,13 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 - S.27 non-compete nuance table with 5 distinct scenarios
 - All rules in reference files structured as tables with Detection Keywords for model-agnostic pattern matching
 - IF/THEN pseudocode blocks in india-law.md for Phase 2 MCP system prompt extraction
+- Kept all patterns in single file rather than splitting by category for Phase 2 MCP extraction simplicity
+- Edge case detection guidance uses prose paragraphs alongside tables for actionable instructions
+- Used Detection Keywords column consistently across all pattern types for model-agnostic matching
 
 ## Roadmap Evolution
 
-- Phase 01.1 inserted after Phase 1: Harden skill — deep contract knowledge, tests, Docker validation (URGENT)
+- Phase 01.1 inserted after Phase 1: Harden skill -- deep contract knowledge, tests, Docker validation (URGENT)
 
 ## Blockers
 
@@ -62,8 +66,9 @@ None.
 |-------|------|----------|-------|-------|
 | 01 | 01 | 3min | 2 | 1 |
 | 01 | 02 | 4min | 2 | 2 |
+| 01.1 | 01 | 7min | 2 | 1 |
 
 ## Last Session
 
-- **Stopped at:** Completed 01-02-PLAN.md (Phase 1 complete)
-- **Timestamp:** 2026-03-22T01:47:00Z
+- **Stopped at:** Completed 01.1-01-PLAN.md
+- **Timestamp:** 2026-03-22T02:26:00Z

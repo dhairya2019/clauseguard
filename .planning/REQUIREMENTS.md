@@ -17,12 +17,12 @@
 
 ### HARDEN — Skill Hardening (Phase 1.1 INSERTED)
 
-- [ ] **HARDEN-01**: Expand clause-patterns.md to 50+ risky patterns with real-world examples covering payment traps, IP grabs, liability bombs, scope creep language, termination tricks, and non-compete overreach
+- [x] **HARDEN-01**: Expand clause-patterns.md to 50+ risky patterns with real-world examples covering payment traps, IP grabs, liability bombs, scope creep language, termination tricks, and non-compete overreach
 - [ ] **HARDEN-02**: Expand india-law.md to 20+ legal provisions with real case citations (Delhi HC, Supreme Court), specific section numbers, and practical implications
 - [ ] **HARDEN-03**: Create 10+ sample contract test fixtures (freelance, NDA, ToS, employment, SaaS) with known red/yellow/green clauses embedded
 - [ ] **HARDEN-04**: Automated test script that runs the skill against each sample contract and validates expected risk flags appear in output
 - [ ] **HARDEN-05**: Dockerfile + docker-compose.yml that builds a validation environment, runs all test contracts, and reports pass/fail
-- [ ] **HARDEN-06**: Add edge case patterns: multi-clause interactions, buried clauses in boilerplate, misleading headings, compound sentences hiding risk
+- [x] **HARDEN-06**: Add edge case patterns: multi-clause interactions, buried clauses in boilerplate, misleading headings, compound sentences hiding risk
 
 ### MCP — MCP Server
 
@@ -115,12 +115,12 @@
 | SKILL-05 | Phase 1 | Complete |
 | SKILL-06 | Phase 1 | Complete |
 | SKILL-07 | Phase 1 | Complete |
-| HARDEN-01 | Phase 1.1 | Pending |
+| HARDEN-01 | Phase 1.1 | Complete |
 | HARDEN-02 | Phase 1.1 | Pending |
 | HARDEN-03 | Phase 1.1 | Pending |
 | HARDEN-04 | Phase 1.1 | Pending |
 | HARDEN-05 | Phase 1.1 | Pending |
-| HARDEN-06 | Phase 1.1 | Pending |
+| HARDEN-06 | Phase 1.1 | Complete |
 | MCP-01 | Phase 2 | Pending |
 | MCP-02 | Phase 2 | Pending |
 | MCP-03 | Phase 2 | Pending |
