@@ -1,0 +1,33 @@
+{
+  "name": "clauseguard-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for legal contract analysis with India-specific awareness, powered by Claude",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "clauseguard-mcp": "./dist/index.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "chmod +x dist/index.js",
+    "dev": "tsx src/index.ts",
+    "inspect": "npx @modelcontextprotocol/inspector node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.0",
+    "@anthropic-ai/sdk": "^0.80.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "tsx": "^4.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": ["mcp", "contract", "legal", "claude", "ai", "india"],
+  "license": "MIT"
+}
