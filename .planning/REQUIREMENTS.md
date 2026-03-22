@@ -54,10 +54,10 @@
 - [x] **FREEM-02**: Browser fingerprinting (FingerprintJS) + IP for user identification without accounts
 - [x] **FREEM-03**: localStorage usage counter for instant UI feedback
 - [x] **FREEM-04**: 429 response with upgrade prompt when limit reached
-- [ ] **FREEM-05**: Razorpay payment integration (create-order, verify, status API routes)
-- [ ] **FREEM-06**: Payment verification + quota unlock in Redis
+- [x] **FREEM-05**: Razorpay payment integration (create-order, verify, status API routes)
+- [x] **FREEM-06**: Payment verification + quota unlock in Redis
 - [x] **FREEM-07**: Usage counter component ("2 of 3 free analyses remaining")
-- [ ] **FREEM-08**: Upgrade prompt modal when limit reached
+- [x] **FREEM-08**: Upgrade prompt modal when limit reached
 
 ### ANALYSIS — Core Analysis Engine
 
@@ -153,10 +153,10 @@
 | FREEM-02 | Phase 4 | Complete |
 | FREEM-03 | Phase 4 | Complete |
 | FREEM-04 | Phase 4 | Complete |
-| FREEM-05 | Phase 4 | Pending |
-| FREEM-06 | Phase 4 | Pending |
+| FREEM-05 | Phase 4 | Complete |
+| FREEM-06 | Phase 4 | Complete |
 | FREEM-07 | Phase 4 | Complete |
-| FREEM-08 | Phase 4 | Pending |
+| FREEM-08 | Phase 4 | Complete |
 
 **Coverage:**
 - v1 requirements: 49 total

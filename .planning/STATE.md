@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: in-progress
-stopped_at: Completed 04-01-PLAN.md
-last_updated: "2026-03-22T14:21:36Z"
+stopped_at: Completed 04-02-PLAN.md
+last_updated: "2026-03-22T14:28:43Z"
 progress:
   total_phases: 4
   completed_phases: 4
-  total_plans: 12
-  completed_plans: 12
+  total_plans: 13
+  completed_plans: 13
 ---
 
 # Project State: ClauseGuard
@@ -26,8 +26,8 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 **Phase 4: Freemium Monetization**
 - Status: In Progress
 - Research: Complete (04-RESEARCH.md)
-- Plans: 1/2 complete
-- Progress: [==========..........] 50%
+- Plans: 2/2 complete
+- Progress: [====================] 100%
 
 ## Completed Phases
 
@@ -57,6 +57,7 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 | 2026-03-22 | Plan 03-03 executed | Results UI — ClauseCard, RiskSummary, RiskBadge, Disclaimer, ClauseSkeleton, ResultsPanel |
 | 2026-03-22 | Phase 4 research done | Upstash Redis + FingerprintJS + Razorpay patterns researched |
 | 2026-03-22 | Plan 04-01 executed | Rate limiting + fingerprinting — Upstash Redis, FingerprintJS, usage counter, 429 handling |
+| 2026-03-22 | Plan 04-02 executed | Razorpay payment integration — create order, verify HMAC, upgrade modal, analyze page wiring |
 
 ## Active Decisions
 
@@ -88,6 +89,9 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 - Raw Redis INCR/DECR instead of @upstash/ratelimit -- lifetime counter semantics, not time-window rate limiting
 - UsageCounter on analyze page only, not global navbar -- avoids unnecessary client hydration on landing page
 - useObject headers option for dynamic X-Fingerprint header -- avoids custom fetch wrapper
+- Lazy Razorpay SDK instantiation via singleton getter -- avoids build-time crash when env vars not set
+- X-Fingerprint header sent from UpgradeModal to payment routes -- server derives compound key via getUserIdentifier(req)
+- timing-safe HMAC comparison with Buffer.from + crypto.timingSafeEqual -- prevents timing attacks
 
 ## Roadmap Evolution
 
@@ -110,10 +114,11 @@ None.
 | 03 | 02 | 4min | 2 | 6 |
 | 03 | 03 | 4min | 2 | 7 |
 | 04 | 01 | 3min | 2 | 8 |
+| 04 | 02 | 4min | 2 | 7 |
 
 ## Last Session
 
-- **Stopped at:** Completed 04-01-PLAN.md
-- **Resume with:** Execute 04-02-PLAN.md (Razorpay payments)
-- **Timestamp:** 2026-03-22T14:21:36Z
-- **Pending user requests:** Set UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN env vars for runtime
+- **Stopped at:** Completed 04-02-PLAN.md
+- **Resume with:** Phase 4 complete. All freemium monetization plans executed.
+- **Timestamp:** 2026-03-22T14:28:43Z
+- **Pending user requests:** Set UPSTASH_REDIS_REST_URL, UPSTASH_REDIS_REST_TOKEN, NEXT_PUBLIC_RAZORPAY_KEY_ID, RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET env vars for runtime
