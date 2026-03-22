@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    volumes:
+      # Mount output directory so results persist on host after container exits
+      - ./tests/output:/app/tests/output
+    # Override default CMD if needed for debugging:
+    # command: bash -c "ls tests/contracts/ && bash tests/run-tests.sh"
