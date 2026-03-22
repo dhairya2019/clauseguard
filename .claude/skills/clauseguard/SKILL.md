@@ -209,4 +209,111 @@ Aggregate all findings from Steps 4, 5, and 6:
 
 ## Step 8: Output Assembly
 
-Produce the final analysis using the output format below. Follow the framing rules and include the disclaimer.
+
+Produce the final analysis using the exact output format below. Follow the framing rules strictly. Always include the disclaimer as the last element.
+
+For any HIGH-severity clause, insert an escalation callout BEFORE the clause analysis entry (see Escalation Flags below).
+
+---
+
+## Output Format Template
+
+Use this exact structure for every analysis:
+
+```markdown
+## Contract Summary
+- **Type:** [identified document type from Step 2]
+- **Parties:** [Party A] and [Party B]
+- **Key dates:** [effective date, termination date, renewal date -- or "Not specified"]
+
+## Risk Overview
+| Risk Level | Count |
+|------------|-------|
+| :red_circle: HIGH    | N     |
+| :yellow_circle: MEDIUM  | N     |
+| :green_circle: LOW     | N     |
+
+**Overall: [:red_circle:/:yellow_circle:/:green_circle:] -- [one-sentence summary from Step 7]**
+
+## Clause Analysis
+
+### [Clause N]: [Title]
+- **Risk:** [:red_circle:/:yellow_circle:/:green_circle:] [HIGH/MEDIUM/LOW]
+- **What it says:** [plain English summary of what the clause means]
+- **Why it matters:** [explanation of the practical impact on the user]
+- **India note:** [if applicable -- S.27, S.28, S.25, FEMA, jurisdiction flag]
+- **Safer alternative:** [suggested rewording framed as "standard market language"]
+
+[Repeat for each clause identified in Step 3]
+
+## Missing Protections
+- **[Missing clause name]** -- [why its absence creates risk]
+
+[Repeat for each missing clause from Step 6]
+
+## Recommended Actions
+1. [Highest priority action -- typically related to RED clauses]
+2. [Next priority action]
+3. [Continue in priority order]
+```
+
+---
+
+## Escalation Flags
+
+For HIGH-severity issues, insert this callout BEFORE the clause analysis entry:
+
+```markdown
+> **Consult a lawyer:** This clause involves [jurisdiction-specific
+> enforceability / significant financial exposure / regulatory compliance].
+> A qualified advocate can advise on your specific situation.
+```
+
+### Escalation Triggers
+
+Insert the escalation callout when a RED clause involves any of these:
+
+- IP assignment of significant value (broad "all work product" assignment)
+- Jurisdiction issues affecting enforceability of the entire contract
+- FEMA compliance concerns with penalty risk (up to 3x the amount)
+- Penalty clauses with disproportionate amounts (>2x contract value)
+- Waiver of fundamental legal rights (S.28 -- right to legal proceedings)
+
+---
+
+## Framing Rules
+
+These rules are mandatory. They ensure the analysis stays within legal compliance boundaries.
+
+### DO say:
+
+- "This clause means..."
+- "Under Indian law, this type of clause is typically..."
+- "Courts have generally held that..."
+- "Consider discussing this clause with a lawyer."
+- "Standard market language would be..."
+- "This clause is void under S.27 of the Indian Contract Act."
+
+### DO NOT say:
+
+- "You should not sign this." (instead: explain risks and let user decide)
+- "This clause is illegal." (instead: "void under S.27" or "unenforceable under S.28")
+- "I recommend..." (instead: "Consider..." or "Standard practice is...")
+- "You need to..." (instead: "It would be prudent to...")
+- "Your legal position is..." (instead: "Under Indian law, this type of clause is typically...")
+
+Always explain, never advise. Frame suggestions as industry standards, not personal recommendations.
+
+---
+
+## Legal Disclaimer
+
+This disclaimer MUST appear at the end of every analysis output. Never omit it.
+
+```markdown
+---
+> **Disclaimer:** This analysis is for informational purposes only and does not
+> constitute legal advice. ClauseGuard is not a law firm. For important
+> contracts or high-value agreements, consult a qualified advocate
+> enrolled with the Bar Council of India.
+```
