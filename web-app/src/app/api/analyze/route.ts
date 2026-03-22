@@ -8,8 +8,13 @@ export const maxDuration = 60;
 
 export async function POST(req: Request) {
   // --- Rate limit check (before reading body) ---
-  const identifier = getUserIdentifier(req);
-  const usage = await checkAndIncrementUsage(identifier);
+  let usage = { allowed: true, used: 0, limit: 3, remaining: 3, isPaid: false };
+  try {
+    const identifier = getUserIdentifier(req);
+    usage = await checkAndIncrementUsage(identifier);
+  } catch {
+    // Redis not configured — skip rate limiting
+  }
 
   if (!usage.allowed) {
     return Response.json(
@@ -40,17 +45,24 @@ export async function POST(req: Request) {
     );
   }
 
-  const result = streamText({
-    model: anthropic("claude-sonnet-4-5-20250514"),
-    system: buildSystemPrompt(),
-    output: Output.object({ schema: contractAnalysisSchema }),
-    prompt: buildUserMessage(contractText, analysisType, partyPerspective),
-  });
+  try {
+    const result = streamText({
+      model: anthropic("claude-sonnet-4-5-20250514"),
+      system: buildSystemPrompt(),
+      output: Output.object({ schema: contractAnalysisSchema }),
+      prompt: buildUserMessage(contractText, analysisType, partyPerspective),
+    });
 
-  // Add usage headers to streaming response
-  const response = result.toTextStreamResponse();
-  response.headers.set("X-Usage-Used", String(usage.used));
-  response.headers.set("X-Usage-Limit", String(usage.limit));
-  response.headers.set("X-Usage-Remaining", String(usage.remaining));
-  return response;
+    // Add usage headers to streaming response
+    const response = result.toTextStreamResponse();
+    response.headers.set("X-Usage-Used", String(usage.used));
+    response.headers.set("X-Usage-Limit", String(usage.limit));
+    response.headers.set("X-Usage-Remaining", String(usage.remaining));
+    return response;
+  } catch (err) {
+    return Response.json(
+      { error: "Analysis failed", details: String(err) },
+      { status: 500 },
+    );
+  }
 }
