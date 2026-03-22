@@ -287,5 +287,93 @@ Standard market language for each category. Frame as "what balanced contracts ty
 
 ---
 
+## Section 4: Edge Case Detection Patterns
+
+Hidden, disguised, and compound risks that standard pattern matching may miss. Use these detection strategies alongside Section 1 patterns.
+
+### 1. Multi-Clause Interaction Risks
+
+Individually acceptable clauses that become dangerous in combination. When two or more of these clauses appear in the same contract, escalate the combined risk.
+
+| Combination | Combined Risk | Detection Keywords |
+|-------------|---------------|--------------------|
+| Non-compete + IP assignment = cannot work in field AND client owns your tools | HIGH | "shall not compete" + "assigns all intellectual property" in same contract |
+| Indemnification + no liability cap = unlimited financial exposure | HIGH | "shall indemnify" present + absence of "limitation of liability" or "liability cap" |
+| Termination for convenience + no in-progress payment + IP assignment on termination = client gets everything, pays nothing | HIGH | "terminate for convenience" + no "payment for work completed" + "IP assignment survives termination" |
+| Auto-renewal + price escalation + long cancellation notice = locked into increasing costs | HIGH | "automatically renew" + "adjusted rates" or "price increase" + "90 days" or "120 days" notice |
+| Broad confidentiality + broad non-solicitation = disguised non-compete | MEDIUM | "all information" as confidential + "shall not solicit any person" -- effectively prevents working in the field |
+
+**Detection guidance:** After individual clause analysis, cross-reference flagged clauses. If two or more individually MEDIUM risks appear together from this table, escalate the combined finding to HIGH.
+
+### 2. Buried Clauses in Boilerplate
+
+Substantive obligations hidden in sections that readers typically skip.
+
+| Location | What Gets Buried | Detection Guidance |
+|----------|------------------|--------------------|
+| "Definitions" section | Exclusivity requirements defined as part of "Services" definition | Check all defined terms used in restrictive clauses -- a broad definition can weaponize an otherwise reasonable clause |
+| "General Provisions" or "Miscellaneous" | Non-compete or non-solicitation obligations | Read every clause in General/Miscellaneous sections; search for "compete", "solicit", "exclusive" |
+| "Confidentiality" section | IP assignment bundled with confidentiality obligations | Search Confidentiality sections for "assign", "transfer", "ownership", "work product" |
+| "Representations and Warranties" | Indemnification triggers disguised as representations | Search for "indemnify", "hold harmless", "liable" within warranty sections |
+| "Term" section without clear heading | Auto-renewal with cancellation requirements buried in paragraph text | Search Term sections for "renew", "auto", "cancel", "notice" even when no sub-heading mentions renewal |
+
+**Detection guidance:** When analyzing a contract, do NOT skip sections titled "General", "Miscellaneous", "Definitions", or "Boilerplate". These sections frequently contain substantive obligations disguised as administrative clauses. Scan every section for keywords from Section 1 risk patterns regardless of the section heading.
+
+### 3. Misleading Headings
+
+Section headings that suggest protection or balance but contain one-sided or aggressive terms.
+
+| Heading | What It Actually Contains | Red Flag |
+|---------|--------------------------|----------|
+| "Intellectual Property Protection" | Assigns all IP away from the creator | Heading implies protection OF creator's IP but content transfers it away |
+| "Mutual Obligations" | Entirely one-sided terms favoring the client | Heading implies balance but obligations flow in only one direction |
+| "Standard Terms" | Non-standard, aggressive clauses | "Standard" label discourages negotiation of actually unusual terms |
+| "Flexible Engagement" | Locks in exclusivity or minimum hours | "Flexible" implies freedom but content restricts it |
+| "Performance Standards" | Contains termination triggers for subjective underperformance | Heading suggests quality metrics but content enables at-will termination |
+
+**Detection guidance:** Always read clause content regardless of heading. If a heading suggests mutual/standard/protective language but the content is one-sided/aggressive, flag the mismatch as a risk indicator. Heading-content mismatch is itself a YELLOW flag.
+
+### 4. Compound Sentences Hiding Risk
+
+Multiple obligations or restrictions joined in a single sentence, where the secondary risk is obscured by the primary clause.
+
+| Example Pattern | Hidden Risk | Detection Keywords |
+|-----------------|-------------|--------------------|
+| "assigns all IP AND agrees not to compete" | Two distinct restrictions (IP + non-compete) buried in one sentence | "and agrees", "and shall not", "and further" joining distinct obligations |
+| "upon completion AND acceptance at sole discretion" | Payment trap: completion alone is insufficient, subjective acceptance gate added | "and acceptance", "and approval", "and written confirmation" after payment trigger |
+| "includes all materials, tools, ideas, concepts, and methodologies" | Scope creep through list expansion -- each item broadens the assignment | "including but not limited to", "including all", comma-separated lists of 4+ IP-related nouns |
+| "may terminate for cause, including but not limited to" | Open-ended termination triggers -- "including but not limited to" makes the list non-exhaustive | "including but not limited to", "including without limitation", "such as" in termination-for-cause definitions |
+
+**Detection guidance:** Break compound sentences at AND/OR/including/as well as conjunctions. Analyze each clause fragment independently for risk. A sentence with 3+ conjunctions joining distinct obligations should be flagged for closer review.
+
+### 5. Defined Term Manipulation
+
+Definitions that make otherwise reasonable clauses unreasonable by expanding the scope of key terms.
+
+| Defined Term | Overbroad Definition | Risk |
+|--------------|----------------------|------|
+| "Confidential Information" | Defined to include publicly available data or independently developed work | Makes confidentiality clause impossible to comply with; any disclosure is a breach |
+| "Deliverables" | Defined to include future work not yet scoped or agreed upon | Enables unlimited scope expansion without change orders |
+| "Compensation" | Defined to exclude certain types of work (e.g., revisions, meetings, travel) | Creates unpaid labor obligations for work that should be compensated |
+| "Termination for Cause" | Defined so broadly that any minor issue qualifies (e.g., "failure to meet any expectation") | Converts termination-for-cause into de facto at-will termination |
+| "Competing Business" | Defined to cover the entire industry rather than specific named competitors | Transforms a narrow non-compete into an industry-wide restriction |
+
+**Detection guidance:** Check the Definitions section for every term used in restrictive clauses (non-compete, confidentiality, IP assignment, termination for cause). An unreasonable definition can make an otherwise reasonable clause dangerous. Flag any definition that uses "all", "any", "including but not limited to" without meaningful boundaries.
+
+### 6. Cross-Reference Traps
+
+Clauses that reference other sections, exhibits, or external documents that modify or override the clause's apparent meaning.
+
+| Pattern | Risk | Detection Keywords |
+|---------|------|--------------------|
+| "Subject to Section 12" where Section 12 has aggressive carve-outs | Apparent protection is nullified by the referenced section | "subject to", "except as provided in", "notwithstanding Section" -- verify referenced section |
+| "As defined in Exhibit B" where Exhibit B is not provided | Undefined terms create ambiguity that favors the drafting party | "as defined in Exhibit", "per Exhibit", "see Exhibit" -- verify exhibit is attached and complete |
+| "In accordance with Company Policy" where policy can change unilaterally | Terms can be modified without contract amendment or consent | "company policy", "internal policy", "as amended from time to time", "current policy" |
+| "Per the rates in Schedule A" where Schedule A is blank or TBD | Payment terms are effectively undefined despite appearing specified | "per Schedule", "as set forth in Schedule", "TBD", "to be determined", "to be agreed" |
+
+**Detection guidance:** Verify all cross-references resolve to actual, complete content. Flag any reference to missing exhibits, undefined policies, or TBD schedules as YELLOW risk. References to documents that "may be amended from time to time" without consent requirements should be flagged as HIGH risk since they allow unilateral contract modification.
+
+---
+
 *Reference file for ClauseGuard SKILL.md -- do not use as standalone document.*
 *Designed for Phase 2 reuse: patterns are structured as IF/THEN rules for MCP system prompt encoding.*
