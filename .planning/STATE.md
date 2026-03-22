@@ -48,6 +48,10 @@ See: .planning/PROJECT.md (updated 2026-03-22)
 - All rules in reference files structured as tables with Detection Keywords for model-agnostic pattern matching
 - IF/THEN pseudocode blocks in india-law.md for Phase 2 MCP system prompt extraction
 
+## Roadmap Evolution
+
+- Phase 01.1 inserted after Phase 1: Harden skill — deep contract knowledge, tests, Docker validation (URGENT)
+
 ## Blockers
 
 None.
